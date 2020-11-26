@@ -1,0 +1,67 @@
+[
+    {
+           "nome":"Açaí",
+           "cor":"#270652",
+           "tipo":"plant",
+           "imagem":"https://i.pinimg.com/originals/0a/16/37/0a1637d781b21732c48168eafbd35555.jpg",
+           "subnome":"Euterpe oleracea",
+           "info":"O açaí é uma palmeira muito comum na região da Amazônia que produz um fruto bacáceo de cor roxa, muito utilizado na confecção de alimentos e bebidas. A palmeira do açaí é por vezes confundida, no estado do Pará, com a palmeira juçara, embora juçara seja outro tipo de palmeira, que dá palmito de excelente qualidade."
+       },
+    {
+           "nome":"Cacaueiro",
+           "cor":"#4d2510",
+           "tipo":"plant",
+           "imagem":"https://i.pinimg.com/originals/8f/26/cb/8f26cb4a09246a8e40f4e55ad5f03687.jpg",
+           "subnome":"Theobroma cacao",
+           "info":"O cacaueiro, é a árvore perenefólia que dá origem ao fruto chamado cacau. Pertencente à família Malvaceae, o cacaueiro é originário da chuvosa Bacia do rio Amazonas, na América do Sul. Em ambientes sombreados de floresta e sem poda humana, sua altura pode chegar a 20 metros, contudo, em condições de cultivo usualmente sua altura varia de 3 a 5 metros. O cacau é a principal matéria-prima do chocolate, feito por meio da torra e moagem das suas amêndoas secas em processo industrial ou caseiro. Outros subprodutos do cacau incluem sua polpa, suco, geleia, destilados finos e sorvete."
+       },
+    {
+           "nome":"Aroeira-vermelha",
+           "cor":"#bf2c2c",
+           "tipo":"plant",
+           "imagem":"https://i.pinimg.com/originals/43/e8/cd/43e8cd1dd2acc08fc6b9d82b72976940.jpg",
+           "subnome":"Schinus terebinthifolius",
+       "info":"Árvore de porte médio, dioica, de folhas compostas, aromáticas. Flores pequenas em panículas, fruto tipo drupa, vermelho-brilhante, aromático e adocicado. Reproduz-se por sementes ou por estacas. Altura de 5-10 metros, com tronco de 30 a 60 cm de diametros revestido com casca grossa. Folhas compostas imparimpinadas, fortemente aromáticas, geralmente com sete foliolos de 3-7 cm de comprimento por 2-3 cm de largura. Influrescências paniculadas axilares e terminais, com flores pequenas de cor embranquiçadas. Os frutos são drupas globosas de cor vermelho brilhante quando maduras. Floresce principalmente durante os meses de Setembro – Janeiro e frutifica predominantemente no período Janeiro-Julho."
+       },
+   {
+           "nome":"Batata-doce",
+           "cor":"#eb9b34",
+           "tipo":"plant",
+           "imagem":"https://i.pinimg.com/originals/79/f7/16/79f716b1a7678acd787806a371b87f13.jpg",
+           "subnome":"Ipomoea batatas",
+       "info":"Também chamada batata-da-terra, batata-da-ilha, jatica e jetica, é uma planta da família das convolvuláceas, da ordem das Solanales (a mesma da batata, do tomate, das pimentas etc.). Originária dos Andes, se espalhou pelos trópicos e subtrópicos de todo o mundo.Possui diversas variedades cultiváveis, divididas em de mesa (ou de mercado) e forrageiras, ambas podendo ser encontradas nas cores externas amarela, branca e roxa. No entanto, a quantidade de variedades não se restringe a essas características — elas podem ser classificadas de acordo com o formato, tamanho, cor interna, doçura, precocidade, cor das folhas e até pela coloração das flores, entre outras."
+       },
+   {
+           "nome":"Cajueiro",
+           "cor":"#f5eb98",
+           "tipo":"plant",
+           "imagem":"https://i.pinimg.com/originals/28/a9/3d/28a93dc18703152848114bf76b9d09d5.jpg",
+           "subnome":"Anacardium occidentale",
+       "info":"O cajueiro (nome científico Anacardium occidentale) é uma planta da família Anacardiaceae originária da região nordeste do Brasil, com arquitetura de copa tortuosa e de diferentes portes. Na natureza existem dois tipos: o comum (ou gigante) e o anão. O tipo comum pode atingir entre 5 e 12 metros de altura, mas em condições muito propícias pode chegar a 20 metros. O tipo anão possui altura média de 4 metros. Seu fruto, a castanha de caju, tem uma forma semelhante a um rim humano; a amêndoa contida no interior da castanha, quando seca e torrada, é popularmente conhecida como castanha-de-caju. Prologando-se ao fruto, existe um pedúnculo (seu pseudofruto) maior, macio, piriforme, também comestível, de cor alaranjada ou avermelhada; é geralmente confundido como fruto. Designado como pedúnculo ou pseudofruto, esta estrutura amadurece colorido em amarelo e/ou vermelho e varia entre o tamanho de uma ameixa e o de uma pêra (5–11 cm). Tem, ainda, os nomes científicos de Anacardium microcarpum e Cassuvium pomiverum."
+       },
+   {
+           "nome":"Chapéu-de-couro",
+           "cor":"#57c236",
+           "tipo":"plant",
+           "imagem":"https://i.pinimg.com/originals/e9/c7/13/e9c7130baef4d1f230d21c90bccd1721.jpg",
+           "subnome":"Echinodorus macrophyllum ou Echinodorus grandiflorus",
+       "info":"É uma erva da família das alismatáceas. Ocorre desde o sul do México até o Brasil. Tal erva aparece em locais pantanosos, possuindo folhas coriáceas, com trinta centímetros de comprimento, flores brancas dispostas em racemos e aquênios com uma semente. É ornamental e apropriada para aquários, tendo, ainda, uso medicinal. A infusão das folhas fornece chá laxativo. Uma pesquisa confirmou sua eficácia em casos de hipertensão. Também é usado popularmente como antirreumático e diurético, contra inflamação de pele e de garganta, reumatismo, artrite e sífilis e como depurador do sangue e eliminador de ácido úrico. A planta produz um rizoma do qual se extrai uma massa. Dessa massa, pode ser feito um doce, como se fosse abóbora. Este doce é muito bom como depurativo do sangue"
+       },
+   {
+           "nome":"Cupuaçu",
+           "cor":"#899925",
+           "tipo":"plant",
+           "imagem":"https://i.pinimg.com/originals/85/a7/45/85a74529ac7b3ca76cd2573adff0d3bc.jpg",
+           "subnome":"Theobroma grandiflorum",
+       "info":"é o fruto de uma árvore originária da Amazônia, parente próxima do cacaueiro. A árvore é conhecida como cupuaçuzeiro, cupuaçueiro ou cupu, é uma fruta típica da região norte brasileira, muito encontrada nos estados do Amapá, Pará e Amazonas. É muito usado na culinária doce, azeda e agridoce pelos nativos da Amazônia.A árvore alcança uma média de 10 a 15 m de altura. Há referências de exemplares com até 20 m. As folhas são longas, medindo até 60 cm de comprimento e apresentam uma aparência ferruginosa na face inferior. As flores são grandes, de cor vermelho escura e apresentam características interessantes: são as maiores do gênero, não crescem grudadas no tronco, como nas outras variedades de theobromáceas, mas sim nos galhos. Os frutos apresentam forma esférica ou ovóide e medem até 25 cm de comprimento, tendo casca dura e lisa, de coloração castanho-escura. As sementes ficam envoltas por uma polpa branca, ácida e aromática. Os frutos surgem de janeiro a maio e são os maiores da família. O cupuaçu contém ferro, fósforo e proteínas, necessários para a formação celular, participando dos processos químicos que permitem a continuação da vida."
+       },
+   {
+           "nome":"Pau-brasil",
+           "cor":"#bf2c2c",
+           "tipo":"plant",
+           "imagem":"https://i.pinimg.com/originals/fb/f4/04/fbf4047906681c8460d0a60d5e287cd8.jpg",
+           "subnome":"Paubrasilia echinata",
+       "info":"O pau-brasil ou pau-de-pernambuco, também chamado arabutã, ibirapiranga, ibirapitá, ibirapitanga, orabutã, pau-de-tinta, pau-pernambuco e pau-rosado, é uma árvore leguminosa nativa da Mata Atlântica, no Brasil.A árvore alcança entre dez e quinze metros de altura e possui tronco reto, com casca cor cinza-escuro, coberta de acúleos, especialmente nos ramos mais jovens. As flores nascem em racemos eretos próximo ao ápice dos ramos. Possuem quatro pétalas amarelas e uma menor vermelha, muito aromáticas; no centro, encontram-se dez estames e um pistilo com ovário súpero alongado. Os frutos são vagens cobertas por longos e afiados espinhos, que devem protegê-los de pássaros indesejáveis, pois estes comeriam os frutos. Contém de uma a cinco sementes discoides, de cor marrom. A torção do legume, ao liberar as sementes, ajuda a aumentar a distância da dispersão."
+       }
+   
+   ]

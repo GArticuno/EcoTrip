@@ -1,0 +1,82 @@
+[
+    {
+        "nome":"Lobo-guará",
+        "cor":"#ef6c00",
+        "tipo":"animal",
+        "imagem":"https://i.pinimg.com/originals/90/26/e1/9026e1039d9ba67c1496200f623bb5c3.jpg",
+        "subnome":"Chrysocyon brachyurus",
+        "info":"É o maior canídeo da América do Sul, podendo atingir entre 20 e 30 kg de peso e até 90 cm na altura da cernelha. Suas pernas longas e finas e a densa pelagem avermelhada lhe conferem uma aparência inconfundível. O lobo-guará é adaptado aos ambientes abertos das savanas sul-americanas, sendo um animal crepuscular e onívoro, com importante papel na dispersão de sementes de frutos do cerrado, principalmente a lobeira (Solanum lycocarpum). Solitário, os territórios são divididos entre um casal, que se encontra no período do estro da fêmea. Esses territórios são bastante amplos, podendo ter uma área de até 123 km². A comunicação se dá principalmente através de marcação de cheiro, mas também ocorrem vocalizações semelhantes a latidos. A gestação dura até 65 dias, com os recém-nascidos de cor preta pesando entre 340 e 430 g."
+    },
+    {
+        "nome":"Boto-cor-de-rosa",
+        "cor":"#f48fb1",
+        "tipo":"animal",
+        "imagem":"https://i.pinimg.com/originals/02/2c/51/022c51bc31d4146c771ab3a52bf23bba.jpg",
+        "subnome":"Inia geoffrensis",
+        "info":"É o maior golfinho de água doce, e um dos cetáceos com dimorfismo sexual mais evidente, com os machos medindo e pesando 16% e 55% mais do que as fêmeas. Os adultos apresentam uma coloração rosada, mais proeminente nos machos. Como outros odontocetos, possui um órgão chamado melão utilizado para ecolocalização. A nadadeira dorsal é pequena, mas é muito larga e as suas nadadeiras peitorais são grandes. Esse recurso, juntamente com o seu tamanho médio e a falta de fusão nas vértebras cervicais conferem-lhe uma grande capacidade de manobra para navegar na floresta inundada e capturar suas presas. Tem a dieta mais ampla entre os odontocetos, alimentando-se principalmente de peixes, mas completando com tartarugas e caranguejos. Na época das chuvas, se desloca para as áreas alagadas da floresta, onde há uma maior oferta de alimentos."
+    },
+    {
+        "nome":"Tucano",
+        "cor":"#424242",
+        "tipo":"animal",
+        "imagem":"https://i.pinimg.com/originals/21/c4/34/21c434d993b6a1ff7a0d87f14893d59e.jpg",
+        "subnome":"Ramphastidae",
+        "info":"São designadas por tucano as aves da família Ramphastidae que vivem nas florestas da América Central e América do Sul. Possuem um bico grande e oco. A parte superior é constituída por trabéculas de sustentação e a parte inferior é de natureza óssea. Não é um bico forte, já que é muito comprido e a alavanca, (maxilar) não é suficiente para conferir tal qualidade. Seu sistema digestivo é extremamente curto, o que explica a sua base alimentar, já que as frutas são facilmente digeridas e absorvidas pelo trato gastrointestinal."
+    },
+    {
+        "nome":"Mico-leão-dourado",
+        "cor":"#ffb300",
+        "tipo":"animal",
+        "imagem":"https://i.pinimg.com/originals/9d/a9/94/9da9944faf38e28358b5480f2a50632f.jpg",
+        "subnome":"Leontopithecus rosalia",
+        "info":"Junto com outros micos-leões é o maior membro da subfamília Callitrichinae, podendo pesar até 800g. A pelagem varia do dourado ao alaranjado com uma juba muito característica, que lhe conferiu o nome popular. Apresenta garras em vez de unhas e o terceiro dedo da mão é muito longo e usado para procurar presas. O dimorfismo sexual não é acentuado. O crânio é pequeno e menos robusto, se comparado com outros micos-leões. Possui 30 dentes, sendo os incisivos muito semelhante a caninos."
+    },
+    {
+        "nome":"Onça-pintada",
+        "cor":"#fdd835",
+        "tipo":"animal",
+        "imagem":"https://i.pinimg.com/originals/03/68/4d/03684d3e88b6c9bac4a9083a53a17cd5.jpg",        
+        "subnome":"Panthera onca",
+        "info":"É um felino de porte grande, com peso variando de 56 a 92 kg, podendo chegar a 158 kg, e comprimento variando de 1,12 a 1,85 m sem a cauda, que é relativamente curta. Fisicamente semelhante ao leopardo, dele se diferencia pelo padrão de manchas na pele e pelo maior tamanho. Existem indivíduos totalmente pretos. Caça formando emboscadas. Tem uma mordida excepcionalmente poderosa, mesmo em relação aos outros grandes felinos. Isso permite que ela fure a casca dura de répteis como a tartaruga e de utilizar um método de matar incomum: ela morde diretamente através do crânio da presa entre os ouvidos, uma mordida fatal no cérebro."
+    },
+    {
+        "nome":"Guaruba",
+        "cor":"#cddc39",
+        "tipo":"animal",
+        "imagem":"https://i.pinimg.com/originals/03/ae/2b/03ae2bc3b4885c67347e9072edaa2f55.jpg",
+        "subnome":"Guaruba guarouba",
+        "info":"A guaruba (Guaruba guarouba ou Aratinga guarouba), também chamada de ararajuba, é uma ave psitaciforme endêmica do norte do Brasil, ameaçada de extinção. As aves chegam a medir até 35 centímetros de comprimento, possuindo uma plumagem amarelo-ouro com rêmiges verdes. Seus hábitos e ciclos de vida em estado selvagem ainda são pouco conhecidos, mas já foi obtida com sucesso sua reprodução em cativeiro. A população total não deve passar dos três mil indivíduos, e está em declínio, ameaçada pela destruição das florestas onde vive, e pela caça ilegal. Sua área de ocorrência diminuiu em 40% em relação à original."
+    },
+    {
+        "nome":"Tatu-Bola",
+        "cor":"#795548",
+        "tipo":"animal",
+        "imagem":"https://i.pinimg.com/originals/6f/d3/63/6fd3639116abd6a59f5e31d018295aa3.jpg",
+        "subnome":"Tolypeutes",
+        "info":"As espécies de tatu do gênero Tolypeutes contam com cerca de 30 cm de comprimento, têm coloração marrom anegrada e, geralmente, três cintas móveis. São os únicos tatus capazes de se enrolar completamente dentro da carapaça, assumindo o formato de bola. De acordo com a União Internacional para a Conservação da Natureza e dos Recursos Naturais (IUCN), enquanto o tatu-bola-da-caatinga é uma espécie ameaçada, com estado de conservação vulnerável, o mataco tem um menor risco de ser extinto, com estado de conservação quase-vulnerável."
+    },
+    {
+        "nome":"Tamanduá Bandeira",
+        "cor":"#8d6e63",
+        "tipo":"animal",
+        "imagem":"https://i.pinimg.com/originals/ea/bd/aa/eabdaa1c960f91289f4505d4723c1b1a.jpg",
+        "subnome":"Myrmecophaga tridactyla",
+        "info":"O tamanduá-bandeira (nome científico: Myrmecophaga tridactyla), também chamado iurumi, jurumim, tamanduá-açu, tamanduá-cavalo, papa-formigas-gigante e urso-formigueiro-gigante, é um mamífero xenartro da família dos mirmecofagídeos, encontrado na América Central e na América do Sul. É a maior das quatro espécies de tamanduás e, junto com as preguiças, está incluído na ordem Pilosa. Tem hábito predominantemente terrestre, diferente de seus parentes próximos, o tamanduá-mirim e o tamanduaí, que são arborícolas. O animal mede entre 1,8 e 2,1 metros de comprimento e pesa até 41 kg. É facilmente reconhecido pelo seu focinho longo e padrão característico de pelagem. Possui longas garras nos dedos das patas anteriores, o que faz com que ande com uma postura nodopedálica. O aparelho bucal é adaptado a sua dieta especializada em formigas e cupins, mas em cativeiro ele pode ser alimentado com carne moída, ovos e ração, por exemplo. A longa pelagem o predispõe a ser parasitado por ectoparasitas, como carrapatos."
+    },
+    {
+        "nome":"Arara-azul-grande",
+        "cor":"#1e88e5",
+        "tipo":"animal",
+        "imagem":"https://i.pinimg.com/originals/25/57/48/255748f7403ece67811b9436a2d77909.jpg",
+        "subnome":"Anodorhynchus hyacinthinus",
+        "info":"Já foi considerada uma espécie ameaçada, tal como a arara-azul-de-lear (Anodorhychuns leari) e como a arara-azul-pequena (Anodorhychuns glaucus), mas em 2014 foi retirada da lista brasileira de animais em extinção. Apresenta plumagem azul com pele nua amarela em torno dos olhos e fita da mesma cor na base da mandíbula. Seu bico é desmesurado, parecendo ser maior que o próprio crânio. Sua alimentação, enquanto estiver vivendo livremente, consiste de frutos das palmeiras disponíveis no local, como o urucuri, o inajá e o coco-de-espinho."
+    },
+    {
+        "nome":"Píton",
+        "cor":"#388e3c",
+        "tipo":"animal",
+        "imagem":"https://i.pinimg.com/originals/50/cb/92/50cb92fbdaabc366d104b081a2b61247.jpg",
+        "subnome":"Python",
+        "info":"Python é um gênero de répteis da família Pythonidae. Pode ser encontrado na Ásia e África. Popularmente são denominadas de pitão (português europeu) ou píton (português brasileiro)[1]. Nenhuma das serpentes desta família possui dentes inoculadores de veneno, porém possuem presas afiadas curvadas pra dentro para agarrar sua presa. Os pítons variam de 4,5 a 6 metros de comprimento. O pitão é retratado em diversos filmes como sendo 'gigante e sedenta por sangue'. Isso não acontece na realidade."
+    }
+]
