@@ -23,6 +23,9 @@ h2 {
 h3 {
   font-size: 2.5em;
 }
+h4 {
+  font-size: 2.0em;
+}
 a {
   text-decoration: none;
   color: white;
@@ -322,6 +325,9 @@ footer {
   h3 {
     font-size: 6vw;
   }
+  h4{
+    font-size: 5vw;
+  }
   p {
     font-size: 6vw;
   }
@@ -367,6 +373,9 @@ footer {
   }
   #qualif {
     font-size: 6.5vw;
+  }
+  #please {
+    font-size: 5.5vw;
   }
   .titles {
     width: 85%;
