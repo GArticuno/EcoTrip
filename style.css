@@ -255,6 +255,7 @@ font-size: 35px;
 }
 #jobPos {
 font-size: 25px;
+color: #9f4cb4;
 }
 #jobDesc {
 font-size: 20px;
@@ -396,12 +397,14 @@ ul {
 }
 .timeline {
   left: 0;
+  padding-left: 10px;
 }
 .timeline-thumbnail {
   font-size: 3.5vw;
 }
 .timeline:before {
   width: 2px;
+  left: -9px;
 }
 #workplace {
   font-size: 6.2vw;
