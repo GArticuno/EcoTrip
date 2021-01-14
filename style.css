@@ -110,8 +110,8 @@ display: inline-block;
 }
 
 .well {
-min-height: 300px;
-min-width: 480px;
+min-height: 200px;
+min-width: 340px;
 max-height: 1080px;
 max-width: 520px;
 background-color: #9f4cb4;
@@ -316,7 +316,7 @@ text-align: center;
 }
 @media (max-width: 800px) and (min-width: 300px) {
 img {
-  min-width: 300px; 
+  min-width: 286px; 
   min-height: 108px;
 }
 h1 {
@@ -404,14 +404,14 @@ ul {
   width: 2px;
 }
 #workplace {
-  font-size: 8vw;
+  font-size: 6.2vw;
 }
 #jobPos {
-  font-size: 6vw;
+  font-size: 5.5vw;
 }
 #jobDesc {
   font-size: 5vw;
-  width: 50%;
+  width: 77%;
 }
 #liveDemo {
   padding-left: 5%;
