@@ -267,7 +267,13 @@ background-color: #333;
 background-size: cover;
 height: 350px;
 padding-top: 20px;
-} 
+}
+#styleCode {
+  text-align: center;
+  font-size: 2em;
+  display: center;
+  color: #ffffff;
+}
 .contact-buttons {
 display: block;
 width: 100%;
@@ -424,6 +430,9 @@ ul {
   font-size: 5.5vw;
 }
 .view {
+  font-size: 5.5vw;
+}
+#styleCode {
   font-size: 5.5vw;
 }
 }
