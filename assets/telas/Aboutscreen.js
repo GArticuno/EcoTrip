@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems:'center',
-    top:50
+    top:50,
   },
   imagem:{
     width:95,
@@ -46,8 +46,8 @@ const styles = StyleSheet.create({
     alignSelf:'center'
   },
   bg:{
-    width:360,
-    height:566,
+    width:"100%",
+    height:"100%",
     alignItems:'center'
   },
   title: {
