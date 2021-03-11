@@ -123,16 +123,6 @@ border-style: solid;
 border-width: 3px;
 border-color: #9f4cb4; 
 }
-.resume {
-top: 280px;
-position: relative;
-font-size: 70%;
-width: 140px;
-display: inline-block;
-margin-left: 15px;
-cursor: pointer; 
-padding-bottom: 8px;
-}
 .contact {
 top: 280px;
 position: relative;
@@ -365,7 +355,7 @@ ul {
   width: 25%;
   border-width: 2px;
 }
-.resume,.contact {
+.contact {
   top: 110px;
   position: relative;
   padding-bottom: 10px;
@@ -423,12 +413,7 @@ ul {
   font-size: 5vw;
   width: 77%;
 }
-#liveDemo {
-  padding-left: 5%;
-  padding-right: 14%;
-  text-align: center;
-  font-size: 5.5vw;
-}
+
 .view {
   font-size: 5.5vw;
 }
