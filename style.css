@@ -34,7 +34,7 @@ a:hover {
 color: #551c83;
 }
 .banner {
-background:url("Espaço\ 2.jpg");
+background:url("imgs/Espaço\ 2.jpg");
 background-size: cover;
 height: 750px;
 }
@@ -50,7 +50,7 @@ padding-bottom: 40px;
 padding-top:40px;
 }
 .ex-timeline {
-background: url("Espaço\ 5.jpg");;
+background: url("imgs/Espaço\ 5.jpg");;
 background-size: cover;
 min-height: 100%;
 padding-top: 20px;
