@@ -1,17 +1,50 @@
-/* Code By Webdevtrick ( https://webdevtrick.com ) */
+@font-face {
+  font-family: "Hey August";
+  src: url("fonts/HeyAugust.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Dum1";
+  src: url("fonts/dum1.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Linux Libertine";
+  src: url("fonts/LinLibertine_R.ttf");
+  font-style: normal;
+}
+
 html, body {
-  background-color: white;
   color:white;
-  font-family: 'Staatliches', cursive;
+  font-family: Linux Libertine;
   letter-spacing: 3px;
   width: 100%;
   margin: 0;
   padding: 0;
   overflow-x: hidden; 
 }
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-background-color: #9f4cb4;
+
+.navbar {
+ background-color: #595182;
+
 }
+
+.navbar-nav > .nav-item {
+font-family: Hey August;
+font-size: 1.3rem;
+margin: 0.5rem;
+}
+
+.navbar-nav > .nav-item .nav-link{
+  color: white;
+}
+
+.navbar-nav > .nav-item .nav-link:hover{
+  color: rgb(117, 233, 248);
+}
+
 h1 {
 padding-top: 8px;
 font-size: 8.0em;
@@ -30,49 +63,84 @@ a {
 text-decoration: none;
 color: white;
 }
-a:hover {
-color: #551c83;
-}
+
 .banner {
 background:url("imgs/Espaço\ 2.jpg");
 background-size: cover;
-height: 750px;
+position: relative;
+height: 800px;
 }
+.banner:before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left:0;
+  width: 100%;
+  height: 14rem;
+  background: url('imgs/gradient_purple.svg');
+  background-size: cover;
+}
+
 #overlay {
-background: rgba(0, 0, 0, 0.70);
+background: rgba(0, 0, 0, 0.50);
 height: 750px;
 }
 .skills {
-background:#212121;
-background-size: cover;
+background: #332c5a;
+position: relative;
 min-height: 100%;
-padding-bottom: 40px;
+padding-bottom: 120px;
 padding-top:40px;
 }
-.ex-timeline {
-background: url("imgs/Espaço\ 5.jpg");;
-background-size: cover;
-min-height: 100%;
-padding-top: 20px;
-padding-bottom: 60px;
+.skills:before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left:0;
+  width: 100%;
+  height: 14rem;
+  background: url('imgs/gradient_black.svg');
+  background-size: cover;
 }
+
+.ex-timeline {
+background-color: #222222;
+background-size: cover;
+position: relative;
+height: 100%;
+padding-top: 20px;
+padding-bottom: 70px;
+}
+
+.ex-timeline:before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left:0;
+  width: 100%;
+  height: 14rem;
+  background: url('imgs/gradient_purple.svg');
+  background-size: cover;
+}
+
 .portfolios {
-padding-top: 5px;
-margin-top: -20px;
-background: #212121;
+background: #332c5a;
+padding-top: 0.3rem;
+margin-top: -1.2rem;
+padding-bottom: 1rem;
 }
 .title {
 padding-bottom: 10px;
 width: 900px;
+font-family: Dum1;
+font-weight: 100;
 margin-right: auto;
 margin-left: auto;
 position: relative;
-top: 250px;
+top: 200px;
 }
 .titles {
-width: 820px;
-border-color: white;
-border-width: 5px;
+width: 70rem;
 display: block;
 margin:0 auto;
 margin-top: 30px;
@@ -82,10 +150,17 @@ margin-bottom: 30px;
 font-size: 6.5em;
 padding-bottom: 15px;
 }
-
+#logo{
+  height: 10rem;
+  width: 10rem;
+}
+#subtitles{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
 #skills-label {
 font-size:3.0em; 
-padding-bottom:30px;
+padding: 2rem;
 }
 .project-img {
 min-height: 300px;
@@ -93,15 +168,24 @@ max-height: 1280px;
 max-width: 720px;
 }
 #projectTitle {
+  text-align: center; 
+  font-size: 2rem;
+  color: #fff;
+}
+
+#projectSource {
 text-align: center; 
-font-size: 2.8em;
+font-size: 2rem;
 cursor: pointer;
 color: #fff;
+}
+#projectSource:hover {
+  color: #b5adff;
 }
 .skill {
 background-color: white;
 color: #212121;
-font-size: 2rem;
+font-size: 1.4rem;
 opacity: .8;
 padding: 15px;
 margin: 5px;
@@ -110,30 +194,46 @@ position: relative;
 display: inline-block;
 }
 
-.well {
-min-height: 200px;
-min-width: 340px;
-max-height: 1080px;
-max-width: 520px;
-background-color: #9f4cb4;
-align-content: center;
+.card{
+  min-height: 200px;
+  min-width: 340px;
+  max-height: 1080px;
+  max-width: 520px;
+  background-color: #595182;
+  align-content: center;
+  margin:0.5rem;
 }
-.border {
-border-style: solid;
-border-width: 3px;
-border-color: #9f4cb4; 
+.card > .card{
+  border: 3px solid white;
+  margin: 0.5rem;
 }
+.carousel{
+  margin: 1rem;
+  border: 15px solid #595182;
+  border-radius: 10px;
+}
+.carousel-caption{
+  background-color: rgba(0, 0, 0, 0.60);
+}
+.carousel-control-prev, .carousel-control-next{
+  transition: background-color 0.3s;
+}
+.carousel-control-prev:hover, .carousel-control-next:hover{
+  background-color: rgba(0, 0, 0, 0.60);
+}
+
 .contact {
-top: 280px;
+top: 1rem;
 position: relative;
 font-size: 70%;
-width: 140px;
+width: 2rem;
 display: inline-block;
 cursor: pointer; 
-padding-bottom: 8px;
+padding-bottom: 0.2rem;
 }
 #qualif {
-font-size: 3em;
+font-size: 2em;
+font-family: Linux Libertine;
 color:#c182d1;
 }
 footer {
@@ -173,12 +273,12 @@ position: relative;
 -ms-transform: rotate(-45deg);
 -webkit-transform: rotate(-45deg);
 transform: rotate(-45deg);
-background-color: #63bdf5;
+background-color: #54d669;
 }
 .timeline-event:hover .timeline-thumbnail {
--moz-box-shadow: inset 40em 0 0 0 #9f4cb4;
--webkit-box-shadow: inset 40em 0 0 0 #9f4cb4;
-box-shadow: inset 40em 0 0 0 #9f4cb4;
+-moz-box-shadow: inset 40em 0 0 0 #54d669;
+-webkit-box-shadow: inset 40em 0 0 0 #54d669;
+box-shadow: inset 40em 0 0 0 #54d669;
 }
 .timeline-event #workplace{
 transition: all .3s;
@@ -187,9 +287,7 @@ transition: all .3s;
 -ms-transition: all .3s;
 -o-transition: all .3s;
 }
-.timeline-event:hover  #workplace{
-color: #4f83f2;
-}
+
 .timeline-event-copy {
 left: 50px;
 padding: 32px 32px 0;
@@ -213,7 +311,7 @@ transition: transform 0.2s ease-in;
 -webkit-transform: rotate(45deg);
 transform: rotate(45deg);
 background-color: white;
-outline: 10px solid #9f4cb4;
+outline: 10px solid #332c5a;
 display: block;
 margin: 8px 8px 8px -8px;
 position: absolute;
@@ -230,7 +328,7 @@ transition: box-shadow 0.5s ease-in 0.1s;
 -moz-box-shadow: inset 0 0 0 0em #1da1f2;
 -webkit-box-shadow: inset 0 0 0 0em #1da1f2;
 box-shadow: inset 0 0 0 0em #1da1f2;
-background: none repeat scroll 0 0 #9f4cb4;
+background: none repeat scroll 0 0 #332c5a;
 box-shadow: 0 0 0 0 #1da1f2 inset;
 color: #ffffff;
 display: inline-block;
@@ -241,33 +339,36 @@ margin-bottom: 10px;
 padding: 8px 15px;
 transition: box-shadow 0.5s ease-in 0.1s;
 }
+
 #workplace {
-font-size: 35px;
+font-size: 2.2rem;
 }
+
 #jobPos {
-font-size: 25px;
-color: #9f4cb4;
+font-size: 1.5rem;
+color: #efc3ff;
 }
+
 #jobDesc {
-font-size: 20px;
+font-size: 1.2rem;
 width: 50%;
 }
 .contact-section {
 background-color: #333;
 background-size: cover;
-height: 350px;
+height: 11rem;
 padding-top: 20px;
 }
 #styleCode {
   text-align: center;
-  font-size: 2em;
+  font-size: 1.4rem;
   display: center;
   color: #ffffff;
 }
 .contact-buttons {
 display: block;
 width: 100%;
-top: 20%;
+
 bottom: 0;
 position: relative;
 text-align: center;
@@ -297,14 +398,7 @@ text-align: center;
   border-style: solid;
   border-color: #05CC46;
 }
-.btn-email {
-  background-color: #141f1f;
-  border-radius: 10px;
-  color: white; 
-  border-width: 1px;
-  border-style: solid;
-  border-color: #084461;
-}
+
 @media (min-width:1400px)   {
 .banner, .skills, .ex-timeline, .portfolios, .contact-section {
     background-repeat: no-repeat; 
@@ -313,34 +407,11 @@ text-align: center;
  }
 }
 @media (max-width: 800px) and (min-width: 300px) {
-img {
-  min-width: 286px; 
-  min-height: 108px;
-}
-h1 {
-  font-size: 12vw;
-}
-h2 {
-  font-size: 8vw;
-}
-h3 {
-  font-size: 6vw;
-}
-h4{
-  font-size: 5vw;
-}
-p {
-  font-size: 6vw;
-}
-.skill {
-  font-size: 5vw;
+html, body {
+  font-size: 80%;
 }
 ul {
-  font-size: 4.5vw;
   width: 80%;
-}
-#skills-label {
-  font-size: 13vw;
 }
 .banner {
   background-size: 100% 100%;
@@ -360,64 +431,23 @@ ul {
   position: relative;
   padding-bottom: 10px;
 }
-.small-intro { 
-  padding-top: 40px;
-}
-#small-intro {
-  width: 80%;
-  font-size: 5vw;
-  padding-bottom: 40px;
-}
-
-#borderText {
-  font-size: 5.5vw;
-}
-#qualif {
-  font-size: 6.5vw;
-}
-#pl {
-  font-size: 5.5vw;
-}
 .titles {
   width: 85%;
 }
 #title {
   padding-bottom: 15px;
-  font-size: 12vw;
 }
 #skills-label {
   font-size: 10vw;
   padding-bottom: 10px;
 }
-#footer {
-  font-size: 3vw;
-}
 .timeline {
   left: 0;
   padding-left: 10px;
-}
-.timeline-thumbnail {
-  font-size: 3.5vw;
 }
 .timeline:before {
   width: 2px;
   left: -9px;
 }
-#workplace {
-  font-size: 6.2vw;
-}
-#jobPos {
-  font-size: 5.5vw;
-}
-#jobDesc {
-  font-size: 5vw;
-  width: 77%;
-}
 
-.view {
-  font-size: 5.5vw;
-}
-#styleCode {
-  font-size: 5.5vw;
-}
 }
