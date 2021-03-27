@@ -165,7 +165,6 @@ padding: 2rem;
 .project-img {
 min-height: 300px;
 max-height: 1280px;
-max-width: 720px;
 }
 #projectTitle {
   text-align: center; 
@@ -196,7 +195,6 @@ display: inline-block;
 
 .card{
   min-height: 200px;
-  min-width: 340px;
   max-height: 1080px;
   max-width: 520px;
   background-color: #595182;
@@ -449,5 +447,4 @@ ul {
   width: 2px;
   left: -9px;
 }
-
 }
