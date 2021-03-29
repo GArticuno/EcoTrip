@@ -171,6 +171,9 @@ max-height: 1280px;
   font-size: 2rem;
   color: #fff;
 }
+#projectTitle:hover{
+  color: #b5adff;
+}
 
 #projectSource {
 text-align: center; 
