@@ -1,14 +1,12 @@
 import React from 'react';
-import {SafeAreaView, StatusBar, ImageBackground} from 'react-native';
+import {SafeAreaView, StatusBar} from 'react-native';
 import { MaterialIcons, Entypo, Ionicons} from '@expo/vector-icons';
 import { NavigationContainer} from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { createDrawerNavigator} from "@react-navigation/drawer";
 import { DefaultTheme, Provider as PaperProvider} from 'react-native-paper';
 import AnimalsScreen from './assets/telas/Animalscreen';
 import PlantsScreen from './assets/telas/Plantsscreen';
 import AboutScreen from './assets/telas/Aboutscreen';
-import bg from './assets/bg.png';
 
 const theme={
   ...DefaultTheme,
@@ -23,8 +21,6 @@ const theme={
 };
 
 const Tab = createBottomTabNavigator();
-
-const MenuDrawer = createDrawerNavigator();
 
 export default function Ecotrip(){
 
