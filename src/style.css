@@ -44,6 +44,9 @@ margin: 0.5rem;
 .navbar-nav > .nav-item .nav-link:hover{
   color: rgb(117, 233, 248);
 }
+.navbar-toggler{
+  margin-left: 1rem;
+}
 
 h1 {
 padding-top: 8px;
@@ -351,7 +354,7 @@ color: #efc3ff;
 }
 
 #jobDesc {
-font-size: 1.2rem;
+font-size: 1.5rem;
 width: 50%;
 }
 .contact-section {
@@ -437,11 +440,15 @@ ul {
 }
 #title {
   padding-bottom: 15px;
+  font-size: 4.5em;
 }
 #skills-label {
   font-size: 10vw;
   padding-bottom: 10px;
 }
+#workplace {
+  font-size: 1.7rem;
+  }
 .timeline {
   left: 0;
   padding-left: 10px;
@@ -449,5 +456,8 @@ ul {
 .timeline:before {
   width: 2px;
   left: -9px;
+}
+.banner:before, .skills:before, .ex-timeline:before{
+  height: 12rem;
 }
 }
