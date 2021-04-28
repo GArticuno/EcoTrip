@@ -428,8 +428,20 @@ text-align: center;
     background-attachment: fixed;
     background-position: center; 
  }
+
+#projectTitle{
+  font-size: 95%;
 }
-@media (max-width: 800px) and (min-width: 300px) {
+#styleCode{
+  font-size: 95%;
+}
+.siteSource{
+  font-size: 95%;
+}
+
+}
+
+@media (max-width: 800px){
 html, body {
   font-size: 80%;
 }
@@ -468,6 +480,15 @@ ul {
 #workplace {
   font-size: 1.7rem;
   }
+#projectTitle{
+  display: none;
+}
+#styleCode{
+  font-size: 95%;
+}
+.siteSource{
+  font-size: 95%;
+}
 .timeline {
   left: 0;
   padding-left: 10px;
@@ -479,4 +500,17 @@ ul {
 .banner:before, .skills:before, .ex-timeline:before{
   height: 12rem;
 }
+}
+
+@media (max-width: 500px) {
+  html, body {
+    font-size: 85%;
+  }
+  #projectTitle{
+    display: none;
+  }
+  #styleCode{
+    display: none;
+  }
+
 }
