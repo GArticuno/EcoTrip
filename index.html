@@ -2,49 +2,59 @@
 <html lang="pt-BR" >
 <head>
   <meta charset="UTF-8">
-  <title>Garticuno - Desenvolvedor Front-end | Desenvolvedor Mobile | Ilustrador</title>
+  <title>Garticuno - Desenvolvedor Front-end | Ilustrador</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="icon" href="favicon.ico" />  
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-  <link rel="icon" href="favicon.ico" />
   <link rel="stylesheet" href="./assets/style.css">
-  <script src="https://kit.fontawesome.com/2dfa274885.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css"/>
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-<nav class="navbar navbar-expand-sm navbar-light fixed-top">
-  <button class='navbar-toggler' data-bs-toggle='collapse' data-bs-target="#collapse_target">
-    <span class='navbar-toggler-icon'></span>
-  </button>
-  <div class="container-fluid">
-    <div class="collapse navbar-collapse" id="collapse_target">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a href="#home" class="nav-link"> Início</a></li>
-        <li class="nav-item"><a href="#skill" class="nav-link"> Habilidades</a></li>
-        <li class="nav-item"><a href="#former" class="nav-link"> Formação</a></li>
-        <li class="nav-item"><a href="#portfolio" class="nav-link"> Portfólio</a></li>
-        <li class="nav-item"><a href="#contact" class="nav-link"> Contatos</a></li>
-        <li class="nav-item"><a href="./indexEn.html" class="nav-link"> EN-US</a></li>
-      </ul>
+
+<!-- Navbar -->
+  <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+    <button class='navbar-toggler' data-bs-toggle='collapse' data-bs-target="#collapse_target">
+      <span class='navbar-toggler-icon'></span>
+    </button>
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="collapse_target">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="#home" class="nav-link"> Início</a></li>
+          <li class="nav-item"><a href="#skill" class="nav-link"> Habilidades</a></li>
+          <li class="nav-item"><a href="#former" class="nav-link"> Formação</a></li>
+          <li class="nav-item"><a href="#portfolio" class="nav-link"> Portfólio</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link"> Contatos</a></li>
+          <li class="nav-item"><a href="./indexEn.html" class="nav-link"> EN-US</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav> 
-<!-- Section 1 -->
-  <section class="banner" id="home">
+  </nav>
+
+<!-- Home -->
+  <section class="home" id="home">
     <div class="title">
-      <div >
+      <div class="image-perfil">
         <div id="oval"></div>
-        <img src="./assets/imgs/perfil.jpeg" alt="Garticuno" id='perfil'>
+        <img src="./assets/imgs/perfil.jpeg" alt="Garticuno" id='perfil'/>
       </div>
       <div>
         <h1 id="name">Garticuno</h1> 
-        <p id="qualif"><strong> Desenvolvedor Front-end | Desenvolvedor Mobile | Ilustrador </strong></p>
+        <p id="qualif"><strong> Desenvolvedor Front-end | Ilustrador </strong></p>
+        <p id="desc">
+          Desenvolvedor Front-end com experiência em criação de aplicações react. Um dos desenvolvedores 
+          de um aplicativo chamado Palette Share disponível na Play Store. Ilustrador analógico por mais 
+          de cinco anos migrando para a ilustração digital com foco em designs de personagens.
+        </p>
       </div>
     </div>
   </section>
-<!-- Skilss --> 
+
+<!-- Skilss -->
   <section class="skills" id="skill">
-    <h1 class="text-center titles titleB"> Habilidades Técnicas </h1>
+    <h1 class="text-center titles "> Habilidades Técnicas </h1>
     <div class="accordion row" id="accordionParent">
       <div class="accordion-item">
         <h2 class="accordion-header skills-label" id="headingOne">
@@ -213,9 +223,10 @@
       </div>
     </div>
   </section>
+
 <!-- Experience --> 
   <section class="ex-timeline" id="former">
-    <h1 class="text-center titles titleB">Formação & Projetos </h1> 
+    <h1 class="text-center titles ">Formação & Projetos </h1> 
     <div class="job-timeline">
       <ul class="timeline">
         <li class="timeline-event">
@@ -348,9 +359,10 @@
       </ul>
       </div>
   </section>
+
 <!-- Projects-->   
-  <section class="portfolios" id="portfolio">
-    <h1 class="text-center titles titleB"> Portfólio </h1>
+  <section class="portfolio" id="portfolio">
+    <h1 class="text-center titles "> Portfólio </h1>
     <div class="container">
       <h2 class="text-center subtitles"> Aplicativos Mobile</h2>
       <div class="divider"></div>
@@ -385,6 +397,21 @@
           </div>
         </div> 
 
+        <div class="col-md-4">
+          <div class="card text-center">
+            <h2 class="card-header projectTitle"><strong>Palette Share</strong></h2>
+            <a>
+              <img src="./assets/imgs/Paletteshare.gif" alt='Paletteshare-gif' class="project-img">
+            </a>
+            <div class="card-body">
+              <a href='https://play.google.com/store/apps/details?id=com.moonbeam.paletteshare' target="_blank">
+                <h2 class="card-title projectSource"><strong>Play Store</strong></h2>
+              </a>
+              <h2 class="card-text styleCode">React-native + react-navigation + react-native-paper</h2>
+            </div>
+          </div>
+        </div> 
+        
       </div>
 
       <h2 class="text-center subtitles"> Aplicações Web</h2>
@@ -410,10 +437,10 @@
               <strong class="projectTitle" >StyleCat</strong>
               <div class='siteSource'>
                 <a href='https://garticuno.github.io/StylesCat/' target="_blank">
-                SITE
+                Site
               </a>
               <a href="https://github.com/GArticuno/StylesCat" target="_blank"> 
-                CÓDIGO
+                Código
               </a>
               </div>
               <h2 class="card-text styleCodeCarousel">Html + Css + Javascript</h2>
@@ -426,10 +453,10 @@
               <strong class="projectTitle">Coutry Club</strong>
               <div class='siteSource'>
                 <a href='https://country-club.netlify.app/' target="_blank">
-                  SITE
+                  Site
                 </a>
                 <a href="https://github.com/GArticuno/Consuming-Graphql-api" target="_blank"> 
-                  CÓDIGO
+                  Código
                 </a>
               </div>
               <h2 class="card-text styleCodeCarousel">React + Graphql + Apollo</h2>
@@ -442,10 +469,10 @@
               <strong class="projectTitle">Alura-Quiz</strong>
               <div class='siteSource'>
                 <a href='https://alura-quiz-garticuno.vercel.app/' target="_blank">
-                  SITE
+                  Site
                 </a>
                 <a href="https://github.com/GArticuno/AluraQuiz" target="_blank"> 
-                  CÓDIGO
+                  Código
                 </a>
               </div>
               <h2 class="card-text styleCodeCarousel">Next.js + Styled Components</h2>
@@ -458,10 +485,10 @@
               <strong class="projectTitle">Pokemon Stars</strong>
               <div class='siteSource'>
                 <a href='https://pokemon-stars-git-main.garticuno.vercel.app/' target="_blank">
-                  SITE
+                  Site
                 </a>
                 <a href="https://github.com/GArticuno/Pokemon-Stars" target="_blank"> 
-                  CÓDIGO
+                  Código
                 </a>
               </div>
               <h2 class="card-text styleCodeCarousel">Next.js + Styled Components</h2>
@@ -474,10 +501,10 @@
               <strong class="projectTitle">Lives do Alanzoka</strong>
               <div class='siteSource'>
                 <div class='emptySite'>
-                  SITE
+                  Site
                 </div>
                 <a href="https://github.com/GArticuno/Angular-Api-_with_json-server" target="_blank"> 
-                  CÓDIGO
+                  Código
                 </a>
               </div>
               <h2 class="card-text styleCodeCarousel">Angular + TypeScript + "Rest API"</h2>
@@ -490,10 +517,10 @@
               <strong class="projectTitle">Move.it (Pokemon edition)</strong>
               <div class='siteSource'>
                 <a href='https://moveit-pokemon-edition-git-main-garticuno.vercel.app/' target="_blank">
-                  SITE
+                  Site
                 </a>
                 <a href="https://github.com/GArticuno/moveit-pokemon_edition" target="_blank"> 
-                  CÓDIGO
+                  Código
                 </a>
               </div>
               <h2 class="card-text styleCodeCarousel">Next.js + TypeScript</h2>
@@ -506,10 +533,10 @@
               <strong class="projectTitle">Old bookcase</strong>
               <div class='siteSource'>
                 <a href='https://oldbookcase.netlify.app/' target="_blank">
-                  SITE
+                  Site
                 </a>
                 <a href="https://github.com/GArticuno/Old_bookcase" target="_blank"> 
-                  CÓDIGO
+                  Código
                 </a>
               </div>
               <h2 class="card-text styleCodeCarousel">React + TypeScript + Restful api</h2>
@@ -522,10 +549,10 @@
               <strong class="projectTitle">Mern Project</strong>
               <div class='siteSource'>
                 <div class='emptySite'>
-                  SITE
+                  Site
                 </div>
                 <a href="https://github.com/GArticuno/MERN_project" target="_blank"> 
-                  CÓDIGO
+                  Código
                 </a>
               </div>
               <h2 class="card-text styleCodeCarousel">MongoDB + Express + React + Node + TypeScript + Scss</h2>
@@ -538,10 +565,10 @@
               <strong class="projectTitle">Podcastr</strong>
               <div class='siteSource'>
                 <div class='emptySite'>
-                  SITE
+                  Site
                 </div>
                 <a href="https://github.com/GArticuno/Podcastr" target="_blank"> 
-                  CÓDIGO
+                  Código
                 </a>
               </div>
               <h2 class="card-text styleCodeCarousel">Next.js + TypeScript + Scss</h2>
@@ -554,10 +581,10 @@
               <strong class="projectTitle">Redux Project</strong>
               <div class='siteSource'>
                 <a href='https://redux-project-garticuno.netlify.app/' target="_blank">
-                  SITE
+                  Site
                 </a>
                 <a href="https://github.com/GArticuno/Redux-project" target="_blank"> 
-                  CÓDIGO
+                  Código
                 </a>
               </div>
               <h2 class="card-text styleCodeCarousel">React + Redux + Redux-Saga + TypeScript + Styled Components</h2>
@@ -575,8 +602,8 @@
     </div>
   </section>
 
-<!-- contact -->  
-  <section class="contact-section text-center" id="contact">
+<!-- Contact -->  
+  <section class="contact text-center" id="contact">
     <h2 class="text-center connect">Conecte-se comigo!</h2>
     <div class="contact-buttons">
       <a class="btn btn-linkedin btn-lg" href="https://www.linkedin.com/in/mateus-romão-557266165" target="_blank" ><i class="fa fa-2x fa-linkedin"></i></a>
@@ -585,6 +612,8 @@
     </div>
     <p class="copyRight">Copyright © Garticuno</p>
   </section> 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+  <script src="https://kit.fontawesome.com/2dfa274885.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 </html>
