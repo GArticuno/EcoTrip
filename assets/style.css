@@ -334,7 +334,7 @@ a {
   border-radius: 10px;
 }
 
-.projectTitle {
+.projectTitle, .projectTitle-carousel {
   text-align: center; 
   font-size: 1.5rem;
   color: #fff;
@@ -462,7 +462,7 @@ transition: color 0.2s;
 
 @media (min-width:1400px)   {
 
-  .projectTitle{
+  .projectTitle, .projectTitle-carousel{
     font-size: 95%;
   }
 
@@ -540,10 +540,10 @@ transition: color 0.2s;
   }
 
 /*---- Portfolio ----*/
-  .projectTitle{
-    display: none;
-  }
 
+  .projectTitle-carousel {
+    font-size: 1rem;
+  }
   .styleCode, .styleCodeCarousel{
     font-size: 95%;
   }
@@ -628,10 +628,6 @@ transition: color 0.2s;
 /*----- Portfolio ----*/
   .subtitles {
     font-size: 1.7rem;
-  }
-
-  .projectTitle{
-    display: none;
   }
 
   .styleCode, .styleCodeCarousel{
