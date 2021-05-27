@@ -8,7 +8,6 @@
   --text: #000000;
   
   --font: 'Poppins', sans-serif;
-
 }
 /*------------------------Elements-----------------------*/
 html, body {
@@ -22,6 +21,16 @@ html, body {
   background: rgb(255, 255, 255);
   font-family: var(--font);
   letter-spacing: 1px;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border-radius: 10px;
 }
 
 h1 {
@@ -62,16 +71,17 @@ a {
  
  }
  
-.navbar-nav > .nav-item .nav-link{
+.navbar-nav > .nav-item .nav-link {
   color: var(--text);
   transition: color 0.2s;
  }
  
-.navbar-nav > .nav-item .nav-link:hover{
+.navbar-nav > .nav-item .nav-link:hover, 
+.navbar-nav > .nav-item .nav-link:focus {
   color: var(--primary);
  }
 
- .navbar-toggler{
+.navbar-toggler{
   margin-left: 1rem;
   border: none;
  }
@@ -131,6 +141,20 @@ a {
 
   font-size:1.2rem;
   font-weight: 400;
+}
+
+.icon {
+  margin: 0.5rem;
+
+  font-size: 2rem;
+  color: var(--primary);
+
+  transition: color 0.3s;
+}
+
+.icon:hover {
+  color: var(--secondary);
+  
 }
 
 /*------------------Common_Classes--------------------------------*/
@@ -595,6 +619,12 @@ transition: color 0.2s;
 
   #desc {
     text-align: center;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 /*---- Commons ----*/

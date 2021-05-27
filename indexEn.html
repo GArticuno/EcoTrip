@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css"/>
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body>
 
 <!-- Navbar -->
   <nav class="navbar navbar-expand-sm navbar-light fixed-top">
@@ -22,7 +22,7 @@
       <div class="collapse navbar-collapse" id="collapse_target">
         <ul class="navbar-nav">
           <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="#skill" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
           <li class="nav-item"><a href="#former" class="nav-link">Formation</a></li>
           <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
           <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
@@ -48,12 +48,17 @@
           Analog illustrator for more than five years migrating to digital illustration with 
           a focus on character designs.
         </p>
+        <div class='icons'>
+          <a class="icon" title='LinkedIn' href="https://www.linkedin.com/in/mateus-romão-557266165" target="_blank" ><i class="fa fa-linkedin"></i></a>
+          <a class="icon" title='Github' href="https://github.com/GArticuno" target="_blank"><i class="fa fa-github"></i></a>
+          <a class="icon" title='DeviantArt' href="https://www.deviantart.com/g-articuno" target="_blank"><i class="fa fa-deviantart"></i></a>    
+        </div>
       </div>
     </div>
   </section>
 
 <!-- Skilss --> 
-  <section class="skills" id="skill">
+  <section class="skills" id="skills">
     <h1 class="text-center titles "> Technical Skills </h1>
     <div class="accordion row" id="accordionParent">
       <div class="accordion-item">
@@ -429,6 +434,7 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>        
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10" aria-label="Slide 11"></button>        
         </div>
 
         <div class="carousel-inner">
@@ -592,6 +598,22 @@
             </div>
           </div>
 
+          <div class="carousel-item">
+            <img src="./assets/imgs/RickMorty.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <strong class="projectTitle-carousel">Rick and Morty characters</strong>
+              <div class='siteSource'>
+                <a href='https://rick-and-morty-characters-graphql.vercel.app/' target="_blank">
+                  Site
+                </a>
+                <a href="https://github.com/GArticuno/React-Redux-Saga-Graphql" target="_blank"> 
+                  Source
+                </a>
+              </div>
+              <h2 class="card-text styleCodeCarousel">React + Redux + Redux-Saga + TypeScript + Graphql</h2>
+            </div>
+          </div>
+
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions"  data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -607,12 +629,14 @@
   <section class="contact text-center" id="contact">
     <h2 class="text-center connect">Connect With Me!</h2>
     <div class="contact-buttons">
-      <a class="btn btn-linkedin btn-lg" href="https://www.linkedin.com/in/mateus-romão-557266165" target="_blank" ><i class="fa fa-2x fa-linkedin"></i></a>
-      <a class="btn btn-github btn-lg" href="https://github.com/GArticuno" target="_blank"><i class="fa fa-2x fa-github"></i></a>
-	    <a class="btn btn-deviantart btn-lg" href="https://www.deviantart.com/g-articuno" target="_blank"><i class="fa fa-2x fa-deviantart"></i></a>
+      <a class="btn btn-linkedin btn-lg" title='LinkedIn' href="https://www.linkedin.com/in/mateus-romão-557266165" target="_blank" ><i class="fa fa-2x fa-linkedin"></i></a>
+      <a class="btn btn-github btn-lg" title='Github' href="https://github.com/GArticuno" target="_blank"><i class="fa fa-2x fa-github"></i></a>
+	    <a class="btn btn-deviantart btn-lg" title='DeviantArt' href="https://www.deviantart.com/g-articuno" target="_blank"><i class="fa fa-2x fa-deviantart"></i></a>
     </div>
     <p class="copyRight">Copyright © Garticuno</p>
   </section> 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+  <script src="https://kit.fontawesome.com/2dfa274885.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 </html>
