@@ -6,6 +6,7 @@
   --tertiary: #54d669;
   --bg:#ffffff;
   --text: #000000;
+  --card-color: #f8142f;
   
   --font: 'Poppins', sans-serif;
 }
@@ -357,6 +358,9 @@ a {
   background-color: var(--primary);
   border-radius: 10px;
 }
+.projectTitle {
+  margin-top: 0.5rem;
+}
 
 .projectTitle, .projectTitle-carousel {
   text-align: center; 
@@ -364,12 +368,19 @@ a {
   color: #fff;
 }
 
-.project-img {
-  height: 70%;
-  width: 70%;
+.projects-webm {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.project-webm {
+
+  height: 75%;
+  width: 75%;
   margin-top: 0.5rem;
-  border: 2px solid white;
-  border-radius: 10px;
+  border-radius: 15px;
+
 }
 
 .projectSource {
@@ -410,7 +421,14 @@ transition: color 0.2s;
 }
 
 .carousel-caption{
-  background-color: rgba(0, 0, 0, 0.30);
+  background-color: rgba(0, 0, 0);
+  opacity: 0.3;
+  transition: opacity 0.2s, background-color 0.2s;
+}
+
+.carousel-caption:hover{
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 1;
 }
 
 .carousel-control-prev, .carousel-control-next{
@@ -484,10 +502,17 @@ transition: color 0.2s;
 
 /*------------------------------Media-----------------------------------------*/
 
+@media (max-width:1024px) {
+  .carousel-caption {
+    background-color: rgb(0,0,0,.7);
+    opacity: 1
+  }
+}
+
 @media (min-width:1400px)   {
 
   .projectTitle, .projectTitle-carousel{
-    font-size: 95%;
+    font-size: 97%;
   }
 
   .styleCode{
@@ -511,7 +536,7 @@ transition: color 0.2s;
 
 /*---- Elements ----*/
   html, body {
-    font-size: 80%;
+    font-size: 95%;
   }
 
   ul {
@@ -533,7 +558,6 @@ transition: color 0.2s;
   .titles {
     width: 85%;
     padding-bottom: 1rem;
-    font-size: 4.5em;
   } 
 
 /*---- Skills ----*/
@@ -583,14 +607,8 @@ transition: color 0.2s;
   }
 }
 
-@media (max-width: 550px) {
-
-/*---- Elements ----*/
-  html, body {
-    font-size: 70%;
-  }
-
-/*---- Home ----*/
+@media (max-width: 650px) {
+  /*---- Home ----*/
   .home{
     padding: 0;
     padding-top: 1rem;
@@ -626,6 +644,15 @@ transition: color 0.2s;
     justify-content: center;
     align-items: center;
   }
+}
+
+@media (max-width: 550px) {
+
+/*---- Elements ----*/
+  html, body {
+    font-size: 93%;
+  }
+
 
 /*---- Commons ----*/
   .titles {
@@ -666,5 +693,11 @@ transition: color 0.2s;
 /*---- Contact ----*/
   .connect, .copyRight {
     margin: 0.5rem;
+  }
+}
+
+@media (max-width:380px){
+  .titles {
+    font-size: 3rem;
   }
 }
