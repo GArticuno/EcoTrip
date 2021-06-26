@@ -266,11 +266,6 @@ a {
   position: relative;
 }
 
-.timeline-event:hover .timeline-icon {
-  transform: rotate(-45deg);
-  background-color: var(--tertiary);
-}
-
 .timeline-event:hover .timeline-thumbnail {
   box-shadow: inset 40em 0 0 0 var(--tertiary);
 }
@@ -280,15 +275,19 @@ a {
 }
 
 .timeline-icon {
-  background-color: var(--secondary);
-  border-radius: 50%;
+  color: var(--secondary);
   display: block;
   margin: 0.5rem 0.5rem 0.5rem -0.5rem;
   position: absolute;
   top: 0;
   left: 2rem;
-  width: 1.3rem;
-  height: 1.3rem;
+  font-size: 1.5rem;
+  transition: .3s ease;
+}
+
+.timeline-event:hover .timeline-icon{
+  transform: scale(1.5);
+  color: var(--tertiary);
 }
 
 .timeline-event-copy {
