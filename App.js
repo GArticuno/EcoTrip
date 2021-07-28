@@ -28,8 +28,8 @@ export default function Ecotrip(){
     <PaperProvider theme={theme}>
       <StatusBar backgroundColor='#66bb6a'/>
       <SafeAreaView style={{flex:1}}> 
-      <NavigationContainer theme={theme}>
-      <Tab.Navigator
+        <NavigationContainer theme={theme}>
+          <Tab.Navigator
             initialRouteName="Animals"
             tabBarOptions={{
               activeTintColor: '#fff',
@@ -65,11 +65,10 @@ export default function Ecotrip(){
               tabBarIcon:({color}) =>(
                 <Ionicons name={'md-alert'} size={20} color={color} />
               ),
-            }}/>
-            
-    </Tab.Navigator>
-    </NavigationContainer>
+            }}/> 
+          </Tab.Navigator>
+        </NavigationContainer>
       </SafeAreaView> 
-  </PaperProvider>
+    </PaperProvider>
   );
 }
