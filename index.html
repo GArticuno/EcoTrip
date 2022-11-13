@@ -2,7 +2,7 @@
 <html lang="pt-BR" >
 <head>
   <meta charset="UTF-8">
-  <title>Garticuno - Desenvolvedor Front-end | Ilustrador</title>
+  <title>Garticuno - Desenvolvedor Front-end</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="description" content="Site currículo">
   <link rel="icon" href="favicon.ico" /> 
@@ -32,8 +32,18 @@
             <li class="nav-item"><a href="#former" class="nav-link"> Formação</a></li>
             <li class="nav-item"><a href="#portfolio" class="nav-link"> Portfólio</a></li>
             <li class="nav-item"><a href="#contact" class="nav-link"> Contatos</a></li>
-            <li class="nav-item"><a href="./indexEn.html" class="nav-link"> EN-US</a></li>
           </ul>
+          <div class="theme-buttons">
+            <a class="btn btn-delphox btn-lg" title='Delphox' onclick="delphoxSet()">
+              <i class="fa fa-brush"></i>
+            </a>
+            <a class="btn btn-greninja btn-lg" title='Greninja' onclick="greninjaSet()">
+              <i class="fa fa-brush"></i>
+            </a>
+            <a class="btn btn-chesnaught btn-lg" title='Chesnaught'onclick="chesnaughtSet()">
+              <i class="fa fa-brush"></i>
+            </a>
+          </div>
         </div>
       </div>
     </nav>    
@@ -48,11 +58,9 @@
         </div>
         <div>
           <h1 id="name">Garticuno</h1> 
-          <p id="qualif"><strong> Desenvolvedor Front-end | Ilustrador </strong></p>
+          <p id="qualif"><strong> Desenvolvedor Front-end</strong></p>
           <p id="desc">
-            Desenvolvedor Front-end com experiência em criação de aplicações React com diferentes aspectos. 
-            Um dos desenvolvedores de um aplicativo chamado Palette Share disponível na Play Store. 
-            Ilustrador analógico por mais de cinco anos migrando para a ilustração digital com foco em designs de personagens.
+            Desenvolvedor Front com experiência em diferentes tipos de projeto, sempre se adaptando a novas situações.
           </p>
           <div class='icons'>
             <a class="icon" title='LinkedIn' href="https://www.linkedin.com/in/mateus-romão-557266165" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a>
@@ -64,22 +72,7 @@
     </section>
     <!-- Skilss -->
     <section class="skills" id="skills">
-      <h1 class="text-center titles "> Habilidades Técnicas </h1>
-      
-      <div class='exp-horses'>
-        <div>
-          <img class='exp-icon' src="./assets/icons/horse.svg" alt="horse" title='Horse'/>
-          * Possui conhecimento técnico mas pouca prática.
-        </div>
-        <div>
-          <img class='exp-icon' src="./assets/icons/unicorn.svg" alt="unicorn" title='Unicorn'/>
-          * Possui bom conhecimento técnico e prático.
-        </div>
-        <div>
-          <img class='exp-icon' src="./assets/icons/pegasus.svg" alt="pegasus" title='Pegasus'/>
-          * Consegue combinar conhecimentos para melhorar ainda mais seu trabalho.
-        </div>
-      </div>
+      <h1 class="text-center titles "> Conhecimentos </h1>
 
       <div class="accordion row" id="accordionParent">
         <div class="accordion-item">
@@ -92,7 +85,7 @@
               aria-controls="collapse_skill1"
               >
               <i class="fa fa-file-code-o"></i>
-                Linguagens de Programação  
+                Avançado  
             </button>
           </h2>
             <div 
@@ -103,88 +96,55 @@
             >
             <div class="accordion-body row">
               <div class="skill">
-                <div class='skill-with-horse'>
-                  C
-                 <img class='exp-icon-accordion' src="./assets/icons/horse.svg" alt="horse" title='Horse'/>                  
-                </div>
+                Angular
               </div>
               <div class="skill">
-                <div class='skill-with-horse'>
-                  C#
-                 <img class='exp-icon-accordion' src="./assets/icons/horse.svg" alt="horse" title='Horse'/>                  
-                </div>
+                Bootstrap
               </div>
               <div class="skill">
-                <div class='skill-with-horse'>
-                  C++
-                 <img class='exp-icon-accordion' src="./assets/icons/horse.svg" alt="horse" title='Horse'/>                  
-                </div>
-              </div> 
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  CSS
-                 <img class='exp-icon-accordion' src="./assets/icons/pegasus.svg" alt="pegasus" title='Pegasus'/>                  
-                </div>
+                CSS
               </div>
               <div class="skill">
-                <div class='skill-with-horse'>
-                  HTML
-                  <img class='exp-icon-accordion' src="./assets/icons/pegasus.svg" alt="pegasus" title='Pegasus'/>                  
-                </div>
+                Express
               </div>
               <div class="skill">
-                <div class='skill-with-horse'>
-                  Git
-                  <img class='exp-icon-accordion' src="./assets/icons/unicorn.svg" alt="unicorn" title='Unicorn'/>                  
-                </div>
+                Firebase
               </div>
               <div class="skill">
-                <div class='skill-with-horse'>
-                  Graphql
-                 <img class='exp-icon-accordion' src="./assets/icons/horse.svg" alt="horse" title='Horse'/>                  
-                </div>
+                Git
               </div>
               <div class="skill">
-                <div class='skill-with-horse'>
-                  Java
-                 <img class='exp-icon-accordion' src="./assets/icons/unicorn.svg" alt="unicorn" title='Unicorn'/>
-                </div>
+                HTML
               </div>
               <div class="skill">
-                <div class='skill-with-horse'>
-                  JavaScript
-                  <img class='exp-icon-accordion' src="./assets/icons/unicorn.svg" alt="unicorn" title='Unicorn'/>                  
-                </div>
+                Illustrator
               </div>
               <div class="skill">
-                <div class='skill-with-horse'>
-                  Pascal
-                 <img class='exp-icon-accordion' src="./assets/icons/horse.svg" alt="horse" title='Horse'/>                  
-                </div>
-              </div> 
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  PHP
-                 <img class='exp-icon-accordion' src="./assets/icons/horse.svg" alt="horse" title='Horse'/>                  
-                </div>
+                Jest
               </div>
               <div class="skill">
-                <div class='skill-with-horse'>
-                  Python
-                  <img class='exp-icon-accordion' src="./assets/icons/unicorn.svg" alt="unicorn" title='Unicorn'/>                  
-                </div>
+                MongoDB
               </div>
               <div class="skill">
-                <div class='skill-with-horse'>
-                  Sql
-                 <img class='exp-icon-accordion' src="./assets/icons/horse.svg" alt="horse" title='Horse'/>                  
-                </div>
+                Next.js
               </div>
               <div class="skill">
-                <div class='skill-with-horse'>
-                  TypeScript
-                  <img class='exp-icon-accordion' src="./assets/icons/unicorn.svg" alt="unicorn" title='Unicorn'/>                  
-                </div>
+                Node.js
+              </div>
+              <div class="skill">
+                Photoshop
+              </div>
+              <div class="skill">
+                React
+              </div>
+              <div class="skill">
+                React Native
+              </div>
+              <div class="skill">
+                Styled Components
+              </div>
+              <div class="skill">
+                TypeScript
               </div>
             </div>
           </div>
@@ -199,7 +159,7 @@
               aria-controls="collapse_skill2"
               >
               <i class="uil uil-books"></i>
-              FrameWorks & Bibliotecas 
+              Técnico
             </button>
           </h2>
             <div 
@@ -210,296 +170,15 @@
             >
             <div class="accordion-body row">
               <div class="skill">
-                <div class='skill-with-horse'>
-                  .Net
-                 <img class='exp-icon-accordion' src="./assets/icons/horse.svg" alt="horse" title='Horse'/>                  
-                </div>
+                .Net
               </div>
               <div class="skill">
-                <div class='skill-with-horse'>
-                  Angular
-                  <img class='exp-icon-accordion' src="./assets/icons/horse.svg" alt="horse" title='Horse'/>                  
-                </div>
+                Redux
               </div>
               <div class="skill">
-                <div class='skill-with-horse'>
-                  Bootstrap
-                  <img class='exp-icon-accordion' src="./assets/icons/unicorn.svg" alt="unicorn" title='Unicorn'/>                  
-                </div>
+                Redux-Saga
               </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  Express
-                  <img class='exp-icon-accordion' src="./assets/icons/unicorn.svg" alt="unicorn" title='Unicorn'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  Next.js
-                  <img class='exp-icon-accordion' src="./assets/icons/unicorn.svg" alt="unicorn" title='Unicorn'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  Node.js
-                  <img class='exp-icon-accordion' src="./assets/icons/unicorn.svg" alt="unicorn" title='Unicorn'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  React
-                  <img class='exp-icon-accordion' src="./assets/icons/unicorn.svg" alt="unicorn" title='Unicorn'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  React Native
-                  <img class='exp-icon-accordion' src="./assets/icons/unicorn.svg" alt="unicorn" title='Unicorn'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  Redux
-                 <img class='exp-icon-accordion' src="./assets/icons/horse.svg" alt="horse" title='Horse'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  Redux-Saga
-                 <img class='exp-icon-accordion' src="./assets/icons/horse.svg" alt="horse" title='Horse'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  Styled Components
-                  <img class='exp-icon-accordion' src="./assets/icons/unicorn.svg" alt="unicorn" title='Unicorn'/>                  
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header skills-label" id="headingThree">
-            <button 
-              class='accordion-button collapsed shadow-none border-1'
-              type="button" 
-              data-bs-toggle='collapse' 
-              data-bs-target="#collapse_skill3"
-              aria-controls="collapse_skill3"
-              >
-              <i class="uil uil-sitemap"></i>
-                Competências  
-            </button>
-          </h2>
-            <div 
-              class="accordion-collapse collapse" 
-              id='collapse_skill3' 
-              aria-labelledby="headingThree"
-              data-bs-parent="#accordionParent"
-            >
-            <div class="accordion-body row">
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  Arquitetura MVC
-                 <img class='exp-icon-accordion' src="./assets/icons/horse.svg" alt="horse" title='Horse'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  Consumir API(Rest, Restful e Graphql)
-                  <img class='exp-icon-accordion' src="./assets/icons/unicorn.svg" alt="unicorn" title='Unicorn'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  Criação de diagramas
-                 <img class='exp-icon-accordion' src="./assets/icons/horse.svg" alt="horse" title='Horse'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  Desenvolvimento PWA
-                  <img class='exp-icon-accordion' src="./assets/icons/unicorn.svg" alt="unicorn" title='Unicorn'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  Ilustração digital
-                  <img class='exp-icon-accordion' src="./assets/icons/unicorn.svg" alt="unicorn" title='Unicorn'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  Metodologia Scrum
-                 <img class='exp-icon-accordion' src="./assets/icons/horse.svg" alt="horse" title='Horse'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  UI Design
-                  <img class='exp-icon-accordion' src="./assets/icons/unicorn.svg" alt="unicorn" title='Unicorn'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  UML
-                 <img class='exp-icon-accordion' src="./assets/icons/horse.svg" alt="horse" title='Horse'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  UX Design
-                  <img class='exp-icon-accordion' src="./assets/icons/unicorn.svg" alt="unicorn" title='Unicorn'/>>                  
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header skills-label" id="headingFour">
-            <button 
-              class='accordion-button collapsed shadow-none border-1'
-              type="button" 
-              data-bs-toggle='collapse' 
-              data-bs-target="#collapse_skill4"
-              aria-controls="collapse_skill4"
-              >
-              <i class="uil uil-database"></i>
-                SGBD's  
-            </button>
-          </h2>
-            <div 
-              class="accordion-collapse collapse" 
-              id='collapse_skill4' 
-              aria-labelledby="headingFour"
-              data-bs-parent="#accordionParent"
-            >
-            <div class="accordion-body row">
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  MongoDB
-                  <img class='exp-icon-accordion' src="./assets/icons/unicorn.svg" alt="unicorn" title='Unicorn'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  MySql
-                  <img class='exp-icon-accordion' src="./assets/icons/unicorn.svg" alt="unicorn" title='Unicorn'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  PostegreSQL
-                 <img class='exp-icon-accordion' src="./assets/icons/horse.svg" alt="horse" title='Horse'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  XAMPP
-                 <img class='exp-icon-accordion' src="./assets/icons/horse.svg" alt="horse" title='Horse'/>                  
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header skills-label" id="headingFive">
-            <button 
-              class='accordion-button collapsed shadow-none border-1'
-              type="button" 
-              data-bs-toggle='collapse' 
-              data-bs-target="#collapse_skill5"
-              aria-controls="collapse_skill5"
-              >
-              <i class="uil uil-desktop"></i>
-              Softwares & Plataformas
-            </button>
-          </h2>
-            <div 
-              class="accordion-collapse collapse" 
-              id='collapse_skill5' 
-              aria-labelledby="headingFive"
-              data-bs-parent="#accordionParent"
-            >
-            <div class="accordion-body row">
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  Construct 2
-                 <img class='exp-icon-accordion' src="./assets/icons/horse.svg" alt="horse" title='Horse'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  DatoCMS
-                 <img class='exp-icon-accordion' src="./assets/icons/horse.svg" alt="horse" title='Horse'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  Dreanweaver
-                 <img class='exp-icon-accordion' src="./assets/icons/horse.svg" alt="horse" title='Horse'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  Eclipse-IDE
-                  <img class='exp-icon-accordion' src="./assets/icons/unicorn.svg" alt="unicorn" title='Unicorn'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  Expo
-                  <img class='exp-icon-accordion' src="./assets/icons/unicorn.svg" alt="unicorn" title='Unicorn'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  Figma
-                 <img class='exp-icon-accordion' src="./assets/icons/horse.svg" alt="horse" title='Horse'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  Firebase
-                 <img class='exp-icon-accordion' src="./assets/icons/horse.svg" alt="horse" title='Horse'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  Fireworks
-                 <img class='exp-icon-accordion' src="./assets/icons/horse.svg" alt="horse" title='Horse'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  GitHub
-                  <img class='exp-icon-accordion' src="./assets/icons/unicorn.svg" alt="unicorn" title='Unicorn'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  Illustrator
-                  <img class='exp-icon-accordion' src="./assets/icons/unicorn.svg" alt="unicorn" title='Unicorn'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  Photoshop
-                  <img class='exp-icon-accordion' src="./assets/icons/pegasus.svg" alt="pegasus" title='Pegasus'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  Power BI
-                 <img class='exp-icon-accordion' src="./assets/icons/horse.svg" alt="horse" title='Horse'/>                  
-                </div>
-              </div>
-              <div class="skill">
-                <div class='skill-with-horse'>
-                  Wordpress
-                 <img class='exp-icon-accordion' src="./assets/icons/horse.svg" alt="horse" title='Horse'/>                  
-                </div>
-              </div>
+
             </div>
           </div>
         </div>
@@ -507,138 +186,168 @@
     </section>
   <!-- Experience --> 
     <section class="ex-timeline" id="former">
-      <h1 class="text-center titles ">Formação & Projetos </h1> 
-      <div class="job-timeline">
-        <ul class="timeline">
-          <li class="timeline-event">
-            <i class="fa fa-user-graduate timeline-icon"></i>
-            <div class="timeline-event-copy">
-              <p class="timeline-thumbnail"> Jun 2015 </p>
-              <h5 class="workplace">Multimedia Workshop</h5>
-              <h5 class="jobPos"><strong> Oi Kabum! </strong></h5>
-              <p class="jobDesc"> Oficina Click de experimentação multimídia, promovido pela Oi Kabum! 
-                Escola de Arte e Tecnologia do Rio de Janeiro.</p>
+      <h1 class="text-center titles ">Formação & Projetos </h1>
+      <div id="former-row">
+        <div class="job-timeline">
+          <ul class="timeline">
+            <li class="timeline-event">
+              <i class="fa fa-user-graduate timeline-icon"></i>
+              <div class="timeline-event-copy">
+                <p class="timeline-thumbnail"> Jun 2015 </p>
+                <h5 class="workplace">Multimedia Workshop</h5>
+                <h5 class="jobPos"><strong> Oi Kabum! </strong></h5>
+                <p class="jobDesc"> Oficina Click de experimentação multimídia, promovido pela Oi Kabum! 
+                  Escola de Arte e Tecnologia do Rio de Janeiro.</p>
+                </div>
+            </li>
+          </ul>
+          <ul class="timeline">
+            <li class="timeline-event">
+              <i class="fa fa-user-graduate timeline-icon"></i>
+              <div class="timeline-event-copy">
+                <p class="timeline-thumbnail"> Set 2018 </p>
+                <h5 class="workplace">Voluntario</h5>
+                <h5 class="jobPos"><strong> Instituto Limpa Brasil </strong></h5>
+                <p class="jobDesc"> Voluntario do Projeto do Dia Mundial da Limpeza World Cleanup Day 2018, 
+                  catando lixo na praia.</p>
+                </div>
+            </li>
+          </ul>
+          <ul class="timeline">
+            <li class="timeline-event">
+              <i class="fa fa-user-graduate timeline-icon"></i>
+              <div class="timeline-event-copy">
+                <p class="timeline-thumbnail"> Out 2018</p>
+                <h5 class="workplace">Photoshop</h5>
+                <h5 class="jobPos"><strong>Q-Cursos Networks</strong></h5>
+                <p class="jobDesc"> Curso de Photoshop CS6 básico, intermediário e avançado.</p>
               </div>
-          </li>
-        </ul>
-        <ul class="timeline">
-          <li class="timeline-event">
-            <i class="fa fa-user-graduate timeline-icon"></i>
-            <div class="timeline-event-copy">
-              <p class="timeline-thumbnail">Jan 2017 - Dez 2020</p>
-              <h5 class="workplace">Ciência da Computação</h5>
-              <h5 class="jobPos"><strong>Univeritas</strong></h5>
-              <p class="jobDesc"> Conclusão do curso de Ciência da Computação. </p>
-            </div>
-          </li>
-        </ul>
-        <ul class="timeline">
-          <li class="timeline-event">
-            <i class="fa fa-user-graduate timeline-icon"></i>
-            <div class="timeline-event-copy">
-              <p class="timeline-thumbnail"> Set 2018 </p>
-              <h5 class="workplace">Voluntario</h5>
-              <h5 class="jobPos"><strong> Instituto Limpa Brasil </strong></h5>
-              <p class="jobDesc"> Voluntario do Projeto do Dia Mundial da Limpeza World Cleanup Day 2018, 
-                catando lixo na praia.</p>
+            </li>
+          </ul>
+          <ul class="timeline">
+            <li class="timeline-event">
+              <i class="fa fa-user-graduate timeline-icon"></i>
+              <div class="timeline-event-copy">
+                <p class="timeline-thumbnail"> Dez 2019</p>
+                <h5 class="workplace">Empreendedorismo</h5>
+                <h5 class="jobPos"><strong> Secretaria Municipal da Pessoa com Deficiência e Tecnologia </strong></h5>
+                <p class="jobDesc"> Curso Nave Lab CriaAtivo - Empreendedorismo: 
+                  Comportamento e Estratégias, na Nave do Conhecimento de Triagem.
+                </p>    
               </div>
-          </li>
-        </ul>
-        <ul class="timeline">
-          <li class="timeline-event">
-            <i class="fa fa-user-graduate timeline-icon"></i>
-            <div class="timeline-event-copy">
-              <p class="timeline-thumbnail"> Out 2018</p>
-              <h5 class="workplace">Photoshop</h5>
-              <h5 class="jobPos"><strong>Q-Cursos Networks</strong></h5>
-              <p class="jobDesc"> Curso de Photoshop CS6 básico, intermediário e avançado.</p>
-            </div>
-          </li>
-        </ul>
-        <ul class="timeline">
-          <li class="timeline-event">
-            <i class="fa fa-user-graduate timeline-icon"></i>
-            <div class="timeline-event-copy">
-              <p class="timeline-thumbnail"> Dez 2019</p>
-              <h5 class="workplace">Empreendedorismo</h5>
-              <h5 class="jobPos"><strong> Secretaria Municipal da Pessoa com Deficiência e Tecnologia </strong></h5>
-              <p class="jobDesc"> Curso Nave Lab CriaAtivo - Empreendedorismo: 
-                Comportamento e Estratégias, na Nave do Conhecimento de Triagem.
-              </p>    
-            </div>
-          </li>
-        </ul>
-        <ul class="timeline">
-          <li class="timeline-event">
-            <i class="fa fa-user-graduate timeline-icon"></i>
-            <div class="timeline-event-copy">
-              <p class="timeline-thumbnail"> Dez 2019</p>
-              <h5 class="workplace">Produção de Games</h5>
-              <h5 class="jobPos"><strong> Secretaria Municipal da Pessoa com Deficiência e Tecnologia </strong></h5>
-              <p class="jobDesc"> Curso Nave Lab CriaAtivo - Produção de Games, na Nave do Conhecimento de Triagem. </p>
-            </div>
-          </li>
-        </ul>
-        <ul class="timeline">
-          <li class="timeline-event">
-            <i class="fa fa-user-graduate timeline-icon"></i>
-            <div class="timeline-event-copy">
-              <p class="timeline-thumbnail"> Dez 2020</p>
-              <h5 class="workplace">Atendimento ao Cliente</h5>
-              <h5 class="jobPos"><strong> Secretaria Municipal da Pessoa com Deficiência e Tecnologia </strong></h5>
-              <p class="jobDesc"> Curso Online Atendimento ao Cliente, na Nave do Conhecimento de Padre Miguel. </p>
-            </div>
-          </li>
-        </ul> 
-        <ul class="timeline">
-          <li class="timeline-event">
-            <i class="fa fa-user-graduate timeline-icon"></i>
-            <div class="timeline-event-copy">
-              <p class="timeline-thumbnail"> Fev 2021</p>
-              <h5 class="workplace">Analista HelpDesk</h5>
-              <h5 class="jobPos"><strong>Instituto Usina Social </strong></h5>
-              <p class="jobDesc"> Curso Analista HelpDesk, na Nave do Conhecimento de Santa Cruz. </p>
-            </div>
-          </li>
-        </ul>
-        <ul class="timeline">
-          <li class="timeline-event">
-            <i class="fa fa-user-graduate timeline-icon"></i>
-            <div class="timeline-event-copy">
-              <p class="timeline-thumbnail"> Fev 2021</p>
-              <h5 class="workplace">Mercado de Trabalho e Tecnologia: A computação em Nuvem</h5>
-              <h5 class="jobPos"><strong>Instituto Usina Social </strong></h5>
-              <p class="jobDesc"> Curso Online Mercado de Trabalho e Tecnologia: A computação em Nuvem, 
-                na Nave do Conhecimento da Penha. </p>
-            </div>
-          </li>
-        </ul>
-        <ul class="timeline">
-          <li class="timeline-event">
-            <i class="fa fa-user-graduate timeline-icon"></i>
-            <div class="timeline-event-copy">
-              <p class="timeline-thumbnail"> Mar 2021</p>
-              <h5 class="workplace">Cybersecurity Essentials</h5>
-              <h5 class="jobPos"><strong> Cisco Networking Academy  </strong></h5>
-              <p class="jobDesc"> Conclusão do Curso de Cybersecurity Essentials emitido pela  
-                Cisco Networking Academy, fornecido pela academia Nave do Conhecimento Santa Cruz - Tim Lopes.</p>
-            </div>
-          </li>
-        </ul>
-        <ul class="timeline">
-          <li class="timeline-event">
-            <i class="fa fa-user-graduate timeline-icon"></i>
-            <div class="timeline-event-copy">
-              <p class="timeline-thumbnail"> Mar 2021</p>
-              <h5 class="workplace">Imersão online de UxDesign</h5>
-              <h5 class="jobPos"><strong> Programa Ux Unicórnio </strong></h5>
-              <p class="jobDesc"> Evento de inovação mão na massa instruído por Leandro Rezende 
-                que demonstra a importância do design de experiência do usuário para profissionais 
-                de qualquer área de formação criarem produtos melhores. </p>
-            </div>
-          </li>
-        </ul>
+            </li>
+          </ul>
+          <ul class="timeline">
+            <li class="timeline-event">
+              <i class="fa fa-user-graduate timeline-icon"></i>
+              <div class="timeline-event-copy">
+                <p class="timeline-thumbnail"> Dez 2019</p>
+                <h5 class="workplace">Produção de Games</h5>
+                <h5 class="jobPos"><strong> Secretaria Municipal da Pessoa com Deficiência e Tecnologia </strong></h5>
+                <p class="jobDesc"> Curso Nave Lab CriaAtivo - Produção de Games, na Nave do Conhecimento de Triagem. </p>
+              </div>
+            </li>
+          </ul>
+          <ul class="timeline">
+            <li class="timeline-event">
+              <i class="fa fa-user-graduate timeline-icon"></i>
+              <div class="timeline-event-copy">
+                <p class="timeline-thumbnail">Jan 2017 - Dez 2020</p>
+                <h5 class="workplace">Ciência da Computação</h5>
+                <h5 class="jobPos"><strong>Univeritas</strong></h5>
+                <p class="jobDesc"> Conclusão do curso de Ciência da Computação. </p>
+              </div>
+            </li>
+          </ul>
+          <ul class="timeline">
+            <li class="timeline-event">
+              <i class="fa fa-user-graduate timeline-icon"></i>
+              <div class="timeline-event-copy">
+                <p class="timeline-thumbnail"> Dez 2020</p>
+                <h5 class="workplace">Atendimento ao Cliente</h5>
+                <h5 class="jobPos"><strong> Secretaria Municipal da Pessoa com Deficiência e Tecnologia </strong></h5>
+                <p class="jobDesc"> Curso Online Atendimento ao Cliente, na Nave do Conhecimento de Padre Miguel. </p>
+              </div>
+            </li>
+          </ul> 
+          <ul class="timeline">
+            <li class="timeline-event">
+              <i class="fa fa-user-graduate timeline-icon"></i>
+              <div class="timeline-event-copy">
+                <p class="timeline-thumbnail"> Fev 2021</p>
+                <h5 class="workplace">Analista HelpDesk</h5>
+                <h5 class="jobPos"><strong>Instituto Usina Social </strong></h5>
+                <p class="jobDesc"> Curso Analista HelpDesk, na Nave do Conhecimento de Santa Cruz. </p>
+              </div>
+            </li>
+          </ul>
+          <ul class="timeline">
+            <li class="timeline-event">
+              <i class="fa fa-user-graduate timeline-icon"></i>
+              <div class="timeline-event-copy">
+                <p class="timeline-thumbnail"> Fev 2021</p>
+                <h5 class="workplace">Mercado de Trabalho e Tecnologia: A computação em Nuvem</h5>
+                <h5 class="jobPos"><strong>Instituto Usina Social </strong></h5>
+                <p class="jobDesc"> Curso Online Mercado de Trabalho e Tecnologia: A computação em Nuvem, 
+                  na Nave do Conhecimento da Penha. </p>
+              </div>
+            </li>
+          </ul>
+          <ul class="timeline">
+            <li class="timeline-event">
+              <i class="fa fa-user-graduate timeline-icon"></i>
+              <div class="timeline-event-copy">
+                <p class="timeline-thumbnail"> Mar 2021</p>
+                <h5 class="workplace">Cybersecurity Essentials</h5>
+                <h5 class="jobPos"><strong> Cisco Networking Academy  </strong></h5>
+                <p class="jobDesc"> Conclusão do Curso de Cybersecurity Essentials emitido pela  
+                  Cisco Networking Academy, fornecido pela academia Nave do Conhecimento Santa Cruz - Tim Lopes.</p>
+              </div>
+            </li>
+          </ul>
+          <ul class="timeline">
+            <li class="timeline-event">
+              <i class="fa fa-user-graduate timeline-icon"></i>
+              <div class="timeline-event-copy">
+                <p class="timeline-thumbnail"> Mar 2021</p>
+                <h5 class="workplace">Imersão online de UxDesign</h5>
+                <h5 class="jobPos"><strong> Programa Ux Unicórnio </strong></h5>
+                <p class="jobDesc"> Evento de inovação mão na massa instruído por Leandro Rezende 
+                  que demonstra a importância do design de experiência do usuário para profissionais 
+                  de qualquer área de formação criarem produtos melhores. </p>
+              </div>
+            </li>
+          </ul>
         </div>
+        <div class="job-timeline">
+          <ul class="timeline">
+            <li class="timeline-event">
+              <i class="fa fa-briefcase timeline-icon"></i>
+              <div class="timeline-event-copy">
+                <p class="timeline-thumbnail"> Ago 2021 - Jul 2022</p>
+                <h5 class="workplace">Clicksoft</h5>
+                <h5 class="jobPos"><strong>Desenvolvedor júnior</strong></h5>
+                <p class="jobDesc">
+                  Criação e desenvolvimento de projetos web e mobile, levantamento de requisitos de projetos, 
+                  manutenção de projetos existentes, avaliação de perfil de desenvolvedores a serem contratados.
+                </p>
+                </div>
+            </li>
+          </ul>
+          <ul class="timeline">
+            <li class="timeline-event">
+              <i class="fa fa-briefcase timeline-icon"></i>
+              <div class="timeline-event-copy">
+                <p class="timeline-thumbnail">Jul 2022</p>
+                <h5 class="workplace">TC | Sencon</h5>
+                <h5 class="jobPos"><strong>Desenvolvedor front-end júnior</strong></h5>
+                <p class="jobDesc">Desenvolvimento e manutenção do  projeto TC.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
     </section>
   <!-- Projects-->   
     <section class="portfolio" id="portfolio">
@@ -948,16 +657,17 @@
   <footer>
     <!-- Contact -->  
     <section class="contact text-center" id="contact">
-      <h2 class="text-center connect">Conecte-se comigo!</h2>
+      <h3 class="text-center connect">Conecte-se comigo!</h3>
       <div class="contact-buttons">
-        <a class="btn btn-linkedin btn-lg" title='LinkedIn' href="https://www.linkedin.com/in/mateus-romão-557266165" target="_blank" rel="noopener" ><i class="fa fa-2x fa-linkedin"></i></a>
-        <a class="btn btn-github btn-lg" title='Github' href="https://github.com/GArticuno" target="_blank" rel="noopener"><i class="fa fa-2x fa-github"></i></a>
-        <a class="btn btn-deviantart btn-lg" title='DeviantArt' href="https://www.deviantart.com/g-articuno" target="_blank" rel="noopener"><i class="fa fa-2x fa-deviantart"></i></a>
+        <a class="btn btn-linkedin btn-lg" title='LinkedIn' href="https://www.linkedin.com/in/mateus-romão-557266165" target="_blank" rel="noopener" ><i class="fa fa fa-linkedin"></i></a>
+        <a class="btn btn-github btn-lg" title='Github' href="https://github.com/GArticuno" target="_blank" rel="noopener"><i class="fa fa fa-github"></i></a>
+        <a class="btn btn-deviantart btn-lg" title='DeviantArt' href="https://www.deviantart.com/g-articuno" target="_blank" rel="noopener"><i class="fa fa fa-deviantart"></i></a>
       </div>
       <p class="copyRight">Copyright © Garticuno</p>
     </section>     
   </footer>
   <script src="https://kit.fontawesome.com/2dfa274885.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <script src="./functions/index.js"></script>
 </body>
 </html>
