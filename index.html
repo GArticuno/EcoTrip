@@ -33,17 +33,6 @@
             <li class="nav-item"><a href="#portfolio" class="nav-link"> Portfólio</a></li>
             <li class="nav-item"><a href="#contact" class="nav-link"> Contatos</a></li>
           </ul>
-          <div class="theme-buttons">
-            <a class="btn btn-delphox" title='Delphox' onclick="delphoxSet()">
-              <i class="fa fa-brush"></i>
-            </a>
-            <a class="btn btn-greninja" title='Greninja' onclick="greninjaSet()">
-              <i class="fa fa-brush"></i>
-            </a>
-            <a class="btn btn-chesnaught" title='Chesnaught'onclick="chesnaughtSet()">
-              <i class="fa fa-brush"></i>
-            </a>
-          </div>
         </div>
       </div>
     </nav>    
@@ -74,8 +63,8 @@
     <section class="skills" id="skills">
       <h1 class="text-center titles "> Conhecimentos </h1>
 
-      <div class="accordion row" id="accordionParent">
-        <div class="accordion-item">
+      <div class="accordion-container">
+        <div class="accordion-item"  id="accordionParent1">
           <h2 class="accordion-header skills-label" id="headingOne">
             <button 
               class='accordion-button collapsed shadow-none border-1'
@@ -84,7 +73,6 @@
               data-bs-target="#collapse_skill1"
               aria-controls="collapse_skill1"
               >
-              <i class="fa fa-file-code-o"></i>
                 Avançado  
             </button>
           </h2>
@@ -92,7 +80,7 @@
               class="accordion-collapse collapse" 
               id='collapse_skill1' 
               aria-labelledby="headingOne"
-              data-bs-parent="#accordionParent"
+              data-bs-parent="#accordionParent1"
             >
             <div class="accordion-body row">
               <div class="skill">
@@ -115,9 +103,6 @@
               </div>
               <div class="skill">
                 HTML
-              </div>
-              <div class="skill">
-                Illustrator
               </div>
               <div class="skill">
                 Jest
@@ -149,7 +134,7 @@
             </div>
           </div>
         </div>
-        <div class="accordion-item">
+        <div class="accordion-item" id="accordionParent2">
           <h2 class="accordion-header skills-label" id="headingTwo">
             <button 
               class='accordion-button collapsed shadow-none border-1'
@@ -158,19 +143,21 @@
               data-bs-target="#collapse_skill2"
               aria-controls="collapse_skill2"
               >
-              <i class="uil uil-books"></i>
               Técnico
             </button>
           </h2>
-            <div 
-              class="accordion-collapse collapse" 
-              id='collapse_skill2' 
-              aria-labelledby="headingTwo"
-              data-bs-parent="#accordionParent"
-            >
+          <div 
+            class="accordion-collapse collapse" 
+            id='collapse_skill2' 
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionParent2"
+          >
             <div class="accordion-body row">
               <div class="skill">
                 .Net
+              </div>
+              <div class="skill">
+                Illustrator
               </div>
               <div class="skill">
                 Redux
@@ -178,7 +165,6 @@
               <div class="skill">
                 Redux-Saga
               </div>
-
             </div>
           </div>
         </div>
@@ -186,9 +172,20 @@
     </section>
   <!-- Experience --> 
     <section class="ex-timeline" id="former">
-      <h1 class="text-center titles ">Formação & Projetos </h1>
+      <h1 class="text-center titles ">Formação & Experiências </h1>
       <div id="former-row">
         <div class="job-timeline">
+          <ul class="timeline">
+            <li class="timeline-event">
+              <i class="fa fa-user-graduate timeline-icon"></i>
+              <div class="timeline-event-copy">
+                <p class="timeline-thumbnail">Jan 2017 - Dez 2020</p>
+                <h5 class="workplace">Ciência da Computação</h5>
+                <h5 class="jobPos"><strong>Univeritas</strong></h5>
+                <p class="jobDesc"> Conclusão do curso de Ciência da Computação. </p>
+              </div>
+            </li>
+          </ul>
           <ul class="timeline">
             <li class="timeline-event">
               <i class="fa fa-user-graduate timeline-icon"></i>
@@ -245,17 +242,6 @@
                 <h5 class="workplace">Produção de Games</h5>
                 <h5 class="jobPos"><strong> Secretaria Municipal da Pessoa com Deficiência e Tecnologia </strong></h5>
                 <p class="jobDesc"> Curso Nave Lab CriaAtivo - Produção de Games, na Nave do Conhecimento de Triagem. </p>
-              </div>
-            </li>
-          </ul>
-          <ul class="timeline">
-            <li class="timeline-event">
-              <i class="fa fa-user-graduate timeline-icon"></i>
-              <div class="timeline-event-copy">
-                <p class="timeline-thumbnail">Jan 2017 - Dez 2020</p>
-                <h5 class="workplace">Ciência da Computação</h5>
-                <h5 class="jobPos"><strong>Univeritas</strong></h5>
-                <p class="jobDesc"> Conclusão do curso de Ciência da Computação. </p>
               </div>
             </li>
           </ul>
@@ -360,13 +346,13 @@
             <div class="card text-center projects-webm">
               <h2 class="projectTitle"><strong>Ecotrip</strong></h2>
                 <video class="project-webm" autoplay loop muted>
-                  <source src="./assets/imgs/Ecotrip.webm" type="video/webm">
+                  <source src="./assets/imgs/Ecotrip.webm" type="video/webm" />
                 </video>
               <div class="card-body">
                 <a href="https://github.com/GArticuno/EcoTrip" target="_blank" rel="noopener">
                   <h2 class="card-title projectSource">Código</h2>
                 </a>
-                <h2 class="card-text styleCode">React-native + react-navigation + react-native-paper</h2>
+                <h2 class="card-text styleCode">React-native + React-Navigation + React-Native-Paper</h2>
               </div>
             </div>
           </div>
@@ -375,13 +361,13 @@
             <div class="card text-center projects-webm">
               <h2 class="projectTitle"><strong>Hamburguês</strong></h2>
               <video class="project-webm" autoplay loop muted>
-                <source src="./assets/imgs/Hamburgues.webm" type="video/webm">
+                <source src="./assets/imgs/Hamburgues.webm" type="video/webm" />
               </video>
               <div class="card-body">
                 <a href='https://github.com/GArticuno/Hamburgues' target="_blank" rel="noopener">
                   <h2 class="card-title projectSource">Código</h2>
                 </a>
-                <h2 class="card-text styleCode">React-native + react-navigation + react-native-paper</h2>
+                <h2 class="card-text styleCode">React-native + React-Navigation + React-Native-Paper</h2>
               </div>
             </div>
           </div> 
@@ -390,13 +376,13 @@
             <div class="card text-center projects-webm">
               <h2 class="projectTitle"><strong>Palette Share</strong></h2>
               <video class="project-webm" autoplay loop muted>
-                <source src="./assets/imgs/Paletteshare.webm" type="video/webm">
+                <source src="./assets/imgs/Paletteshare.webm" type="video/webm" />
               </video>
               <div class="card-body">
                 <a href='https://play.google.com/store/apps/details?id=com.moonbeam.paletteshare' target="_blank" rel="noopener">
                   <h2 class="card-title projectSource">Play Store</h2>
                 </a>
-                <h2 class="card-text styleCode">React-native + react-navigation + react-native-paper</h2>
+                <h2 class="card-text styleCode">React-native + React-Navigation + React-Native-Paper</h2>
               </div>
             </div>
           </div> 
@@ -405,13 +391,26 @@
             <div class="card text-center projects-webm">
               <h2 class="projectTitle"><strong>Clicksoft</strong></h2>
               <video class="project-webm" autoplay loop muted>
-                <source src="./assets/imgs/Clicksoft.webm" type="video/webm">
+                <source src="./assets/imgs/Clicksoft.webm" type="video/webm" />
               </video>
               <div class="card-body">
                 <a href='https://github.com/GArticuno/Clicksoft' target="_blank" rel="noopener">
                   <h2 class="card-title projectSource">Código</h2>
                 </a>
-                <h2 class="card-text styleCode">React-native + axios + Styled Components</h2>
+                <h2 class="card-text styleCode">React-native + Axios + Styled Components</h2>
+              </div>
+            </div>
+          </div> 
+
+          <div class="col-md-4">
+            <div class="card text-center projects-webm">
+              <h2 class="projectTitle"><strong>Habits</strong></h2>
+              <img class="project-webm" src="./assets/imgs/habits-mobile.webp" />
+              <div class="card-body">
+                <a href='https://github.com/GArticuno/habits-mobile' target="_blank" rel="noopener">
+                  <h2 class="card-title projectSource">Código</h2>
+                </a>
+                <h2 class="card-text styleCode">React-native + TypeScript + NativeWind </h2>
               </div>
             </div>
           </div> 
@@ -424,7 +423,7 @@
           <div class="carousel-inner">
 
             <div class="carousel-item active">
-              <img src="./assets/imgs/Stylecat.webp" class="d-block w-100" alt="...">
+              <img src="./assets/imgs/Stylecat.webp" class="d-block w-100" alt="..." />
               <div class="carousel-caption">
                 <strong class="projectTitle-carousel" >StyleCat</strong>
                 <div class='siteSource'>
@@ -440,7 +439,7 @@
             </div>
 
             <div class="carousel-item">
-              <img src="./assets/imgs/Paises.webp" class="d-block w-100" alt="...">
+              <img src="./assets/imgs/Paises.webp" class="d-block w-100" alt="..." />
               <div class="carousel-caption">
                 <strong class="projectTitle-carousel">Country Club</strong>
                 <div class='siteSource'>
@@ -456,7 +455,7 @@
             </div>
 
             <div class="carousel-item">
-              <img src="./assets/imgs/Aluraquiz.webp" class="d-block w-100" alt="...">
+              <img src="./assets/imgs/Aluraquiz.webp" class="d-block w-100" alt="..." />
               <div class="carousel-caption">
                 <strong class="projectTitle-carousel">Alura-Quiz</strong>
                 <div class='siteSource'>
@@ -472,7 +471,7 @@
             </div>
 
             <div class="carousel-item">
-              <img src="./assets/imgs/PokemonStars.webp" class="d-block w-100" alt="...">
+              <img src="./assets/imgs/PokemonStars.webp" class="d-block w-100" alt="..." />
               <div class="carousel-caption">
                 <strong class="projectTitle-carousel">Pokemon Stars</strong>
                 <div class='siteSource'>
@@ -488,7 +487,7 @@
             </div>
 
             <div class="carousel-item">
-              <img src="./assets/imgs/LivesAlanzoka.webp" class="d-block w-100" alt="...">
+              <img src="./assets/imgs/LivesAlanzoka.webp" class="d-block w-100" alt="..." />
               <div class="carousel-caption">
                 <strong class="projectTitle-carousel">Lives do Alanzoka</strong>
                 <div class='siteSource'>
@@ -504,7 +503,7 @@
             </div>
 
             <div class="carousel-item">
-              <img src="./assets/imgs/moveit.webp" class="d-block w-100" alt="...">
+              <img src="./assets/imgs/moveit.webp" class="d-block w-100" alt="..." />
               <div class="carousel-caption">
                 <strong class="projectTitle-carousel">Move.it (Pokemon edition)</strong>
                 <div class='siteSource'>
@@ -520,7 +519,7 @@
             </div>
 
             <div class="carousel-item">
-              <img src="./assets/imgs/oldbookcase.webp" class="d-block w-100" alt="...">
+              <img src="./assets/imgs/oldbookcase.webp" class="d-block w-100" alt="..." />
               <div class="carousel-caption">
                 <strong class="projectTitle-carousel">Old bookcase</strong>
                 <div class='siteSource'>
@@ -536,7 +535,7 @@
             </div>
 
             <div class="carousel-item">
-              <img src="./assets/imgs/mern.webp" class="d-block w-100" alt="...">
+              <img src="./assets/imgs/mern.webp" class="d-block w-100" alt="..." />
               <div class="carousel-caption">
                 <strong class="projectTitle-carousel">Mern Project</strong>
                 <div class='siteSource'>
@@ -552,7 +551,7 @@
             </div>
 
             <div class="carousel-item">
-              <img src="./assets/imgs/Podcastr.webp" class="d-block w-100" alt="...">
+              <img src="./assets/imgs/Podcastr.webp" class="d-block w-100" alt="..." />
               <div class="carousel-caption">
                 <strong class="projectTitle-carousel">Podcastr</strong>
                 <div class='siteSource'>
@@ -568,7 +567,7 @@
             </div>
 
             <div class="carousel-item">
-              <img src="./assets/imgs/Redux.webp" class="d-block w-100" alt="...">
+              <img src="./assets/imgs/Redux.webp" class="d-block w-100" alt="..." />
               <div class="carousel-caption">
                 <strong class="projectTitle-carousel">Redux Project</strong>
                 <div class='siteSource'>
@@ -584,7 +583,7 @@
             </div>
 
             <div class="carousel-item">
-              <img src="./assets/imgs/RickMorty.webp" class="d-block w-100" alt="...">
+              <img src="./assets/imgs/RickMorty.webp" class="d-block w-100" alt="..." />
               <div class="carousel-caption">
                 <strong class="projectTitle-carousel">Rick and Morty characters</strong>
                 <div class='siteSource'>
@@ -600,7 +599,7 @@
             </div>
 
             <div class="carousel-item">
-              <img src="./assets/imgs/letmeask.webp" class="d-block w-100" alt="...">
+              <img src="./assets/imgs/letmeask.webp" class="d-block w-100" alt="..." />
               <div class="carousel-caption">
                 <strong class="projectTitle-carousel">Letmeask</strong>
                 <div class='siteSource'>
@@ -616,7 +615,7 @@
             </div>
 
             <div class="carousel-item">
-              <img src="./assets/imgs/Alurakut.webp" class="d-block w-100" alt="...">
+              <img src="./assets/imgs/Alurakut.webp" class="d-block w-100" alt="..." />
               <div class="carousel-caption">
                 <strong class="projectTitle-carousel">Alurakut</strong>
                 <div class='siteSource'>
@@ -628,6 +627,22 @@
                   </a>
                 </div>
                 <h2 class="card-text styleCodeCarousel">Next.js + DatoCMS + Firebase + Styled Components</h2>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="./assets/imgs/habits-web.webp" class="d-block w-100" alt="..." />
+              <div class="carousel-caption">
+                <strong class="projectTitle-carousel">Habits</strong>
+                <div class='siteSource'>
+                  <div class="emptySite">
+                    Site
+                  </div>
+                  <a href="https://github.com/GArticuno/habits-web" target="_blank" rel="noopener"> 
+                    Código
+                  </a>
+                </div>
+                <h2 class="card-text styleCodeCarousel">React.js + TailWind + Phosphor React</h2>
               </div>
             </div>
 
@@ -668,6 +683,5 @@
   </footer>
   <script src="https://kit.fontawesome.com/2dfa274885.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-  <script src="./functions/index.js"></script>
 </body>
 </html>

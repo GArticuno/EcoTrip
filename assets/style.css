@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
 :root {
-  --primary: #D95323;
-  --secondary: #A64138;
-  --tertiary: #E8DE6D;
-  --bg:#EFEDEB;
-  --text: #242424;
+  --primary: #9ce069;
+  --secondary: #56a332;
+  --tertiary: #9ce069;
+  --bg:#1e1b17;
+  --text: #eaeaea;
   
   --font: 'Poppins', sans-serif;
 }
@@ -24,7 +24,8 @@ html, body {
 }
 
 body::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
+  border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.05);
 }
 
@@ -62,31 +63,6 @@ a {
   justify-content: center;
   align-items: center;
  }
-
-.theme-buttons {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 0.5rem;
- }
-
-.btn-delphox {
-  color: #9e3c19;
-  transition: all 0.5s;
-}
-
-.btn-greninja {
-  color: #2167a3;
-  transition: all 0.5s;
-}
-
-.btn-chesnaught {
-  color: #618942;
-  transition: all 0.5s;
-}
-
-.btn-delphox:hover, .btn-greninja:hover, .btn-chesnaught:hover {
-  color: white;
-};
 
 .navbar-nav > .nav-item {
   font-size: 0.9rem;
@@ -197,76 +173,59 @@ a {
   padding-top: 6rem;
 }
 
-.exp-horses {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 2rem 0;
-}
-.exp-icon {
-  width: 3rem;
-  height: 3rem;
-
-}
-.skills-label {
-  padding: 1rem;
-}
-
 .skill {
+  background: var(--white);
   display: inline-block;
   position: relative;
-
-  padding: 0.3rem 2rem;
-  margin: 0.3rem;  
+  margin: 0.3rem 0;
 
   font-size: 1.2rem;
-  opacity: .8;
-}
-
-.skill-with-horse {
-  display: flex;
-  justify-content: space-between;
-}
-
-.exp-icon-accordion {
-  width: 1.5rem;
-  height: 1.5rem;
-
 }
 
 /*-------------Skill_Accordion--------------------*/
-.accordion{
+.accordion-container {
   display: grid;
   grid-template-columns: 32.5rem 32.5rem;
-
+  gap: 1rem;
   justify-content: center;
   margin: 1rem;
 }
 
-.accordion-button {
-  font-size: 1.3rem;
+.accordion-collapse {
+  background-color: transparent;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+};
+
+.accordion-body {
+  background-color: var(--primary);
+}
+
+.accordion-collapse {
+  
 }
 
 .accordion-button, .accordion-button.collapsed:focus{
-  color: black;
-  border-color: rgba(0, 0, 0, 0.125);
+  background-color: transparent;
+  color: var(--text);
+  font-size: 1.3rem;
+  border: 1px solid var(--primary);
 }
 
 .accordion-button:active, .accordion-button:focus, .accordion-button:not(.collapsed){  
   color: var(--primary);
-  background-color:  white;
-  border-color: rgba(0, 0, 0, 0.125);
+  background-color: transparent;
+  border: 1px solid var(--primary);
 }
 
-.accordion-button:not(.collapsed)::after {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ff1f1f'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+.accordion-button:after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%239ce069'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
 }
 
 .fa-file-code-o, .uil{
   margin: 0 0.5rem;
   font-size: 1.5rem;
-  color:var(--primary);
+  color:var(--text);
 }
 
 .uil {
