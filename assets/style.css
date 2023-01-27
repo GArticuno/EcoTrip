@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
 :root {
-  --primary: #9ce069;
-  --secondary: #56a332;
-  --tertiary: #9ce069;
+  --primary: #56a332;
+  --secondary: #9ce069;
+  --tertiary: #f3d941;
+  --quartenary: #6f2100;
   --bg:#1e1b17;
-  --text: #eaeaea;
+  --text: #ffffff;
   
   --font: 'Poppins', sans-serif;
 }
@@ -185,10 +186,14 @@ a {
 /*-------------Skill_Accordion--------------------*/
 .accordion-container {
   display: grid;
-  grid-template-columns: 32.5rem 32.5rem;
+  grid-template-columns: auto auto;
   gap: 1rem;
   justify-content: center;
   margin: 1rem;
+}
+
+.accordion-item {
+  width: 32.5rem;
 }
 
 .accordion-collapse {
@@ -199,10 +204,6 @@ a {
 
 .accordion-body {
   background-color: var(--primary);
-}
-
-.accordion-collapse {
-  
 }
 
 .accordion-button, .accordion-button.collapsed:focus{
@@ -234,9 +235,9 @@ a {
 
 /*-----------------------------Formation---------------------------*/
 
-#former-row {
+.former-row {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto auto;
 }
 
 .ex-timeline {
@@ -269,7 +270,7 @@ a {
   top: 0;
   left: 1rem;  
 
-  background: var(--secondary);
+  background: var(--primary);
   content: '';
 }
 
@@ -279,6 +280,7 @@ a {
 
 .timeline-event:hover .timeline-thumbnail {
   box-shadow: inset 40em 0 0 0 var(--tertiary);
+  color: var(--quartenary);
 }
 
 .timeline-event .workplace{
@@ -286,7 +288,7 @@ a {
 }
 
 .timeline-icon {
-  color: var(--secondary);
+  color: var(--primary);
   display: block;
   margin: 0.5rem 0.5rem 0.5rem -0.5rem;
   position: absolute;
@@ -312,7 +314,7 @@ a {
 .timeline-thumbnail {
   transition: box-shadow 0.5s ;
   box-shadow: inset 0 0 0 0em var(--tertiary);
-  background: none repeat scroll 0 0 var(--secondary);
+  background: none repeat scroll 0 0 var(--primary);
   box-shadow: 0 0 0 0 var(--tertiary) inset;
   color: #ffffff;
   display: inline-block;
@@ -321,6 +323,7 @@ a {
   text-transform: uppercase;
   margin-bottom: 0.6rem;
   padding: 0.5rem 1rem;
+  transition: .3s ease;
 }
 
 .workplace {
@@ -358,15 +361,14 @@ a {
 }
 
 .card{
-  width: 16,25rem;
-  height: auto;
-
-  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
   margin: 1rem;
-
   background-color: var(--primary);
   border-radius: 10px;
 }
+
 .projectTitle {
   margin-top: 0.5rem;
 }
@@ -375,12 +377,6 @@ a {
   text-align: center; 
   font-size: 1.5rem;
   color: #fff;
-}
-
-.projects-webm {
-  display: flex;
-  justify-content: center;
-  align-items: center;  
 }
 
 .project-webm {
@@ -536,8 +532,16 @@ transition: color 0.2s;
 
 @media (max-width:995px){
 
-  .accordion{
-    grid-template-columns: auto auto;
+  html {
+    font-size: 87%;
+  }
+
+  .accordion-item {
+    width: 17rem;
+  }
+
+  .former-row {
+    grid-template-columns: auto;
   }
 }
 
@@ -659,9 +663,12 @@ transition: color 0.2s;
 
 /*---- Elements ----*/
   html, body {
-    font-size: 93%;
+    font-size: 87%;
   }
 
+  .project-webm {
+    width: 60%;
+  }
 
 /*---- Commons ----*/
   .titles {
@@ -671,11 +678,14 @@ transition: color 0.2s;
 /*---- Skills ----*/
   .skills {
     margin-top: auto;
-    font-size: 80%;
   }
 
-  .accordion{
+  .accordion-container{
     grid-template-columns: auto;
+  }
+
+  .accordion-item {
+    width: 30rem;
   }
 
 /*---- Formation ----*/
@@ -690,15 +700,6 @@ transition: color 0.2s;
   .jobDesc{
     width: 80%
   }
-  
-/*----- Portfolio ----*/
-  .subtitles {
-    font-size: 1rem;
-  }
-
-  .styleCode, .styleCodeCarousel{
-    display: none;
-  }
 /*---- Contact ----*/
   .connect, .copyRight {
     margin: 0.5rem;
@@ -706,7 +707,8 @@ transition: color 0.2s;
 }
 
 @media (max-width:380px){
-  .titles {
-    font-size: 3rem;
+  html, body {
+    font-size: 70%;
   }
+
 }
